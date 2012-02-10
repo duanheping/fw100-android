@@ -1,0 +1,1074 @@
+[0G# logcat -b radio[0K[0G[17C[0G# logcat -b radio[0K[0G[16C[0G# logcat -b radio[0K[0G[15C[0G# logcat -b radio[0K[0G[14C[0G# logcat -b radio[0K[0G[13C[0G# logcat -b radio[0K[0G[12C[0G# logcat -b radio[0K[0G[11C[0G# logcat -b radio[0K[0G[10C[0G# logcat -b radio[0K[0G[9C[0G# logcat -b radio[0K[0G[8C[0G# logcat -b radio[0K[0G[7C[0G# logcat -b radio[0K[0G[6C[0G# logcat -b radio[0K[0G[5C[0G# logcat -b radio[0K[0G[4C[0G# logcat -b radio[0K[0G[3C[0G# logcat -b radio[0K[0G[2C[0G# logcat -b radio[0K[0G[3C[0G# logcat -b radio[0K[0G[4C[0G# logcat -b radio[0K[0G[5C[0G# logcat -b radio[0K[0G[6C[0G# logcat -b radio[0K[0G[7C[0G# logcat -b radio[0K[0G[8C[0G# logcat  -b radio[0K[0G[9C[0G# logcat - -b radio[0K[0G[10C[0G# logcat -v -b radio[0K[0G[11C[0G# logcat -v  -b radio[0K[0G[12C[0G# logcat -v t -b radio[0K[0G[13C[0G# logcat -v ti -b radio[0K[0G[14C[0G# logcat -v tim -b radio[0K[0G[15C[0G# logcat -v time -b radio[0K[0G[16C[0G# logcat -v time  -b radio[0K[0G[17C
+01-01 00:01:37.117 D/GSM     ( 1267): [GsmDataConnection-1] DataConnection Init failed com.android.internal.telephony.CommandException: GENERIC_FAILURE
+01-01 00:01:37.117 D/GSM     ( 1267): [GsmDataConnection-1] DataConnection setup result='Other error' on cid=-1
+01-01 00:01:37.117 D/RILJ    ( 1267): [0031]> LAST_DATA_CALL_FAIL_CAUSE
+01-01 00:01:37.125 E/RILJ    ( 1267): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:01:37.125 D/RIL     ( 1070): onRequest: state=2 token=0xe738 req=56 RIL_REQUEST_LAST_DATA_CALL_FAIL_CAUSE
+01-01 00:01:37.125 D/RILJ    ( 1267): [0031]< LAST_DATA_CALL_FAIL_CAUSE {65535}
+01-01 00:01:37.125 D/GSM     ( 1267): [GsmDataConnection-1] DcActivatingState msg.what=EVENT_GET_LAST_FAIL_DONE
+01-01 00:01:37.125 D/GSM     ( 1267): [GsmDataConnection-1] DcInactiveState: setEnterNoticationParams cp,cause
+01-01 00:01:37.125 D/GSM     ( 1267): [GsmDataConnection-1] DcInactiveState: enter notifyConnectCompleted
+01-01 00:01:37.125 D/GSM     ( 1267): [GsmDataConnection-1] notifyConnection at 946684897134 cause=Unknown Data Error
+01-01 00:01:41.843 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:01:41.859 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:01:41.859 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:01:41.859 D/AT      ( 1070): AT< OK
+01-01 00:01:41.859 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:01:41.874 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:01:41.874 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:01:41.874 D/AT      ( 1070): AT< OK
+01-01 00:01:47.921 D/GSM     ( 1267): [GsmDataConnection-1] DcInactiveState: msg.what=EVENT_RESET, ignore we're already reset
+01-01 00:01:47.921 D/GSM     ( 1267): [GsmDataConnection-1] NotifyDisconnectCompleted
+01-01 00:01:47.921 D/GSM     ( 1267): [GsmDataConnection-1] clearSettings
+01-01 00:01:47.921 D/GSM     ( 1267): GSMPhone.java isDataConnectivityPossible() skip check SIM ready
+01-01 00:01:47.945 D/GSM     ( 1267): [GsmDataConnection-1] DcInactiveState msg.what=EVENT_CONNECT
+01-01 00:01:47.945 D/GSM     ( 1267): [GsmDataConnection-1] Connecting to carrier: 'Sprint' APN: 'cinet.spcs' proxy: 'null' port: 'null
+01-01 00:01:47.945 D/RILJ    ( 1267): [0032]> SETUP_DATA_CALL 1 0 cinet.spcs * * 0 null
+01-01 00:01:47.968 E/RILJ    ( 1267): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:01:47.968 D/RIL     ( 1070): onRequest: state=2 token=0xe620 req=27 RIL_REQUEST_SETUP_DATA_CALL
+01-01 00:01:47.976 D/GSM     ( 1267): GSMPhone.java isDataConnectivityPossible() skip check SIM ready
+01-01 00:01:48.015 D/RIL     ( 1070): requestSetupDataCallEVDO started /system/bin/pppd call ttyUSB0
+01-01 00:01:51.874 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:01:51.890 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:01:51.890 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:01:51.890 D/AT      ( 1070): AT< OK
+01-01 00:01:51.890 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:01:51.906 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:01:51.906 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:01:51.906 D/AT      ( 1070): AT< OK
+01-01 00:01:59.992 D/AT      ( 1070): AT< +VMCCMNC:310,00
+01-01 00:02:01.906 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:02:01.921 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:02:01.921 D/AT      ( 1070): AT< +CSQ:13,99
+01-01 00:02:01.921 D/AT      ( 1070): AT< OK
+01-01 00:02:01.921 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:02:01.937 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:02:01.937 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:02:01.937 D/AT      ( 1070): AT< OK
+01-01 00:02:02.031 D/AT      ( 1070): AT< +CSQ:13
+01-01 00:02:11.937 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:02:11.953 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:02:11.953 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:02:11.953 D/AT      ( 1070): AT< OK
+01-01 00:02:11.953 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:02:11.968 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:02:11.968 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:02:11.968 D/AT      ( 1070): AT< OK
+01-01 00:02:18.125 D/RILJ    ( 1267): [0032]< SETUP_DATA_CALL error: com.android.internal.telephony.CommandException: GENERIC_FAILURE
+01-01 00:02:18.125 D/GSM     ( 1267): [GsmDataConnection-1] DcActivatingState msg.what=EVENT_SETUP_DATA_CONNECTION_DONE
+01-01 00:02:18.125 D/GSM     ( 1267): [GsmDataConnection-1] DataConnection Init failed com.android.internal.telephony.CommandException: GENERIC_FAILURE
+01-01 00:02:18.125 D/GSM     ( 1267): [GsmDataConnection-1] DataConnection setup result='Other error' on cid=-1
+01-01 00:02:18.125 D/RILJ    ( 1267): [0033]> LAST_DATA_CALL_FAIL_CAUSE
+01-01 00:02:18.132 E/RILJ    ( 1267): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:02:18.132 D/RIL     ( 1070): onRequest: state=2 token=0xe748 req=56 RIL_REQUEST_LAST_DATA_CALL_FAIL_CAUSE
+01-01 00:02:18.132 D/RILJ    ( 1267): [0033]< LAST_DATA_CALL_FAIL_CAUSE {65535}
+01-01 00:02:18.132 D/GSM     ( 1267): [GsmDataConnection-1] DcActivatingState msg.what=EVENT_GET_LAST_FAIL_DONE
+01-01 00:02:18.132 D/GSM     ( 1267): [GsmDataConnection-1] DcInactiveState: setEnterNoticationParams cp,cause
+01-01 00:02:18.132 D/GSM     ( 1267): [GsmDataConnection-1] DcInactiveState: enter notifyConnectCompleted
+01-01 00:02:18.132 D/GSM     ( 1267): [GsmDataConnection-1] notifyConnection at 946684938141 cause=Unknown Data Error
+01-01 00:02:21.968 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:02:21.984 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:02:21.984 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:02:21.984 D/AT      ( 1070): AT< OK
+01-01 00:02:21.984 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:02:22.007 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:02:22.007 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:02:22.007 D/AT      ( 1070): AT< OK
+01-01 00:02:32.007 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:02:32.023 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:02:32.023 D/AT      ( 1070): AT< +CSQ:13,99
+01-01 00:02:32.023 D/AT      ( 1070): AT< OK
+01-01 00:02:32.023 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:02:32.039 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:02:32.039 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:02:32.039 D/AT      ( 1070): AT< OK
+01-01 00:02:39.492 D/GSM     ( 1267): [GsmDataConnection-1] DcInactiveState: msg.what=EVENT_RESET, ignore we're already reset
+01-01 00:02:39.492 D/GSM     ( 1267): [GsmDataConnection-1] NotifyDisconnectCompleted
+01-01 00:02:39.492 D/GSM     ( 1267): [GsmDataConnection-1] clearSettings
+01-01 00:02:39.492 D/GSM     ( 1267): GSMPhone.java isDataConnectivityPossible() skip check SIM ready
+01-01 00:02:39.507 D/GSM     ( 1267): [GsmDataConnection-1] DcInactiveState msg.what=EVENT_CONNECT
+01-01 00:02:39.515 D/GSM     ( 1267): [GsmDataConnection-1] Connecting to carrier: 'Sprint' APN: 'cinet.spcs' proxy: 'null' port: 'null
+01-01 00:02:39.531 D/RILJ    ( 1267): [0034]> SETUP_DATA_CALL 1 0 cinet.spcs * * 0 null
+01-01 00:02:39.531 E/RILJ    ( 1267): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:02:39.531 D/RIL     ( 1070): onRequest: state=2 token=0xeb90 req=27 RIL_REQUEST_SETUP_DATA_CALL
+01-01 00:02:39.539 D/GSM     ( 1267): GSMPhone.java isDataConnectivityPossible() skip check SIM ready
+01-01 00:02:39.585 D/RIL     ( 1070): requestSetupDataCallEVDO started /system/bin/pppd call ttyUSB0
+01-01 00:02:39.648 D/AT      ( 1070): AT< NO CARRIER
+01-01 00:02:39.648 D/RIL     ( 1070): onUnsolicited:1438 bypassed CALL_STATE_CHANGED
+01-01 00:02:42.039 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:02:42.054 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:02:42.054 D/AT      ( 1070): AT< +CSQ:13,99
+01-01 00:02:42.054 D/AT      ( 1070): AT< OK
+01-01 00:02:42.054 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:02:42.070 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:02:42.070 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:02:42.070 D/AT      ( 1070): AT< OK
+01-01 00:02:52.070 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:02:52.085 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:02:52.085 D/AT      ( 1070): AT< +CSQ:13,99
+01-01 00:02:52.085 D/AT      ( 1070): AT< OK
+01-01 00:02:52.085 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:02:52.101 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:02:52.101 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:02:52.101 D/AT      ( 1070): AT< OK
+01-01 00:03:02.101 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:03:02.117 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:03:02.117 D/AT      ( 1070): AT< +CSQ:13,99
+01-01 00:03:02.117 D/AT      ( 1070): AT< OK
+01-01 00:03:02.117 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:03:02.132 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:03:02.132 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:03:02.132 D/AT      ( 1070): AT< OK
+01-01 00:03:09.632 D/RILJ    ( 1267): [0034]< SETUP_DATA_CALL error: com.android.internal.telephony.CommandException: GENERIC_FAILURE
+01-01 00:03:09.632 D/GSM     ( 1267): [GsmDataConnection-1] DcActivatingState msg.what=EVENT_SETUP_DATA_CONNECTION_DONE
+01-01 00:03:09.632 D/GSM     ( 1267): [GsmDataConnection-1] DataConnection Init failed com.android.internal.telephony.CommandException: GENERIC_FAILURE
+01-01 00:03:09.632 D/GSM     ( 1267): [GsmDataConnection-1] DataConnection setup result='Other error' on cid=-1
+01-01 00:03:09.632 D/RILJ    ( 1267): [0035]> LAST_DATA_CALL_FAIL_CAUSE
+01-01 00:03:09.640 E/RILJ    ( 1267): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:03:09.640 D/RIL     ( 1070): onRequest: state=2 token=0xeb48 req=56 RIL_REQUEST_LAST_DATA_CALL_FAIL_CAUSE
+01-01 00:03:09.640 D/RILJ    ( 1267): [0035]< LAST_DATA_CALL_FAIL_CAUSE {65535}
+01-01 00:03:09.640 D/GSM     ( 1267): [GsmDataConnection-1] DcActivatingState msg.what=EVENT_GET_LAST_FAIL_DONE
+01-01 00:03:09.640 D/GSM     ( 1267): [GsmDataConnection-1] DcInactiveState: setEnterNoticationParams cp,cause
+01-01 00:03:09.640 D/GSM     ( 1267): [GsmDataConnection-1] DcInactiveState: enter notifyConnectCompleted
+01-01 00:03:09.640 D/GSM     ( 1267): [GsmDataConnection-1] notifyConnection at 946684989648 cause=Unknown Data Error
+01-01 00:03:12.132 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:03:12.148 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:03:12.148 D/AT      ( 1070): AT< +CSQ:13,99
+01-01 00:03:12.148 D/AT      ( 1070): AT< OK
+01-01 00:03:12.148 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:03:12.164 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:03:12.164 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:03:12.164 D/AT      ( 1070): AT< OK
+01-01 00:03:22.164 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:03:22.179 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:03:22.179 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:03:22.179 D/AT      ( 1070): AT< OK
+01-01 00:03:22.179 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:03:22.195 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:03:22.195 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:03:22.195 D/AT      ( 1070): AT< OK
+01-01 00:03:32.195 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:03:32.210 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:03:32.210 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:03:32.210 D/AT      ( 1070): AT< OK
+01-01 00:03:32.210 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:03:32.265 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:03:32.265 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:03:32.265 D/AT      ( 1070): AT< OK
+01-01 00:03:42.265 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:03:42.304 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:03:42.304 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:03:42.304 D/AT      ( 1070): AT< OK
+01-01 00:03:42.304 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:03:42.421 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:03:42.421 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:03:42.421 D/AT      ( 1070): AT< OK
+01-01 00:03:51.531 D/GSM     ( 1267): [GsmDataConnection-1] DcInactiveState: msg.what=EVENT_RESET, ignore we're already reset
+01-01 00:03:51.531 D/GSM     ( 1267): [GsmDataConnection-1] NotifyDisconnectCompleted
+01-01 00:03:51.531 D/GSM     ( 1267): [GsmDataConnection-1] clearSettings
+01-01 00:03:51.531 D/GSM     ( 1267): GSMPhone.java isDataConnectivityPossible() skip check SIM ready
+01-01 00:03:51.578 D/GSM     ( 1267): [GsmDataConnection-1] DcInactiveState msg.what=EVENT_CONNECT
+01-01 00:03:51.578 D/GSM     ( 1267): [GsmDataConnection-1] Connecting to carrier: 'Sprint' APN: 'cinet.spcs' proxy: 'null' port: 'null
+01-01 00:03:51.578 D/RILJ    ( 1267): [0036]> SETUP_DATA_CALL 1 0 cinet.spcs * * 0 null
+01-01 00:03:51.585 E/RILJ    ( 1267): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:03:51.585 D/RIL     ( 1070): onRequest: state=2 token=0xef08 req=27 RIL_REQUEST_SETUP_DATA_CALL
+01-01 00:03:51.585 D/GSM     ( 1267): GSMPhone.java isDataConnectivityPossible() skip check SIM ready
+01-01 00:03:51.632 D/RIL     ( 1070): requestSetupDataCallEVDO started /system/bin/pppd call ttyUSB0
+01-01 00:03:52.421 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:03:52.437 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:03:52.437 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:03:52.437 D/AT      ( 1070): AT< OK
+01-01 00:03:52.437 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:03:52.453 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:03:52.453 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:03:52.453 D/AT      ( 1070): AT< OK
+01-01 00:04:02.453 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:04:02.468 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:04:02.468 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:04:02.468 D/AT      ( 1070): AT< OK
+01-01 00:04:02.468 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:04:02.484 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:04:02.484 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:04:02.484 D/AT      ( 1070): AT< OK
+01-01 00:04:12.484 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:04:12.499 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:04:12.499 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:04:12.499 D/AT      ( 1070): AT< OK
+01-01 00:04:12.499 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:04:12.523 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:04:12.523 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:04:12.523 D/AT      ( 1070): AT< OK
+01-01 00:04:21.687 D/RILJ    ( 1267): [0036]< SETUP_DATA_CALL error: com.android.internal.telephony.CommandException: GENERIC_FAILURE
+01-01 00:04:21.687 D/GSM     ( 1267): [GsmDataConnection-1] DcActivatingState msg.what=EVENT_SETUP_DATA_CONNECTION_DONE
+01-01 00:04:21.687 D/GSM     ( 1267): [GsmDataConnection-1] DataConnection Init failed com.android.internal.telephony.CommandException: GENERIC_FAILURE
+01-01 00:04:21.687 D/GSM     ( 1267): [GsmDataConnection-1] DataConnection setup result='Other error' on cid=-1
+01-01 00:04:21.687 D/RILJ    ( 1267): [0037]> LAST_DATA_CALL_FAIL_CAUSE
+01-01 00:04:21.695 E/RILJ    ( 1267): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:04:21.695 D/RIL     ( 1070): onRequest: state=2 token=0xeec0 req=56 RIL_REQUEST_LAST_DATA_CALL_FAIL_CAUSE
+01-01 00:04:21.695 D/RILJ    ( 1267): [0037]< LAST_DATA_CALL_FAIL_CAUSE {65535}
+01-01 00:04:21.695 D/GSM     ( 1267): [GsmDataConnection-1] DcActivatingState msg.what=EVENT_GET_LAST_FAIL_DONE
+01-01 00:04:21.695 D/GSM     ( 1267): [GsmDataConnection-1] DcInactiveState: setEnterNoticationParams cp,cause
+01-01 00:04:21.695 D/GSM     ( 1267): [GsmDataConnection-1] DcInactiveState: enter notifyConnectCompleted
+01-01 00:04:21.695 D/GSM     ( 1267): [GsmDataConnection-1] notifyConnection at 946685061702 cause=Unknown Data Error
+01-01 00:04:22.523 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:04:22.539 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:04:22.539 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:04:22.539 D/AT      ( 1070): AT< OK
+01-01 00:04:22.539 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:04:22.554 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:04:22.554 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:04:22.554 D/AT      ( 1070): AT< OK
+01-01 00:04:32.554 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:04:32.570 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:04:32.570 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:04:32.570 D/AT      ( 1070): AT< OK
+01-01 00:04:32.570 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:04:32.585 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:04:32.585 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:04:32.585 D/AT      ( 1070): AT< OK
+01-01 00:04:42.585 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:04:42.601 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:04:42.601 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:04:42.601 D/AT      ( 1070): AT< OK
+01-01 00:04:42.601 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:04:42.617 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:04:42.617 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:04:42.617 D/AT      ( 1070): AT< OK
+01-01 00:04:52.617 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:04:52.632 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:04:52.632 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:04:52.632 D/AT      ( 1070): AT< OK
+01-01 00:04:52.632 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:04:52.648 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:04:52.648 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:04:52.648 D/AT      ( 1070): AT< OK
+01-01 00:05:02.648 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:05:02.664 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:05:02.664 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:05:02.664 D/AT      ( 1070): AT< OK
+01-01 00:05:02.664 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:05:02.679 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:05:02.679 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:05:02.679 D/AT      ( 1070): AT< OK
+01-01 00:05:12.679 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:05:12.695 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:05:12.695 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:05:12.695 D/AT      ( 1070): AT< OK
+01-01 00:05:12.695 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:05:12.710 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:05:12.710 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:05:12.710 D/AT      ( 1070): AT< OK
+01-01 00:05:22.710 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:05:22.726 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:05:22.726 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:05:22.726 D/AT      ( 1070): AT< OK
+01-01 00:05:22.726 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:05:22.742 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:05:22.742 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:05:22.742 D/AT      ( 1070): AT< OK
+01-01 00:05:32.742 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:05:32.757 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:05:32.757 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:05:32.757 D/AT      ( 1070): AT< OK
+01-01 00:05:32.757 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:05:32.773 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:05:32.773 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:05:32.773 D/AT      ( 1070): AT< OK
+01-01 00:05:42.773 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:05:42.789 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:05:42.789 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:05:42.789 D/AT      ( 1070): AT< OK
+01-01 00:05:42.789 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:05:42.804 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:05:42.804 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:05:42.804 D/AT      ( 1070): AT< OK
+01-01 00:05:45.695 D/GSM     ( 1267): [GsmDataConnection-1] DcInactiveState: msg.what=EVENT_RESET, ignore we're already reset
+01-01 00:05:45.695 D/GSM     ( 1267): [GsmDataConnection-1] NotifyDisconnectCompleted
+01-01 00:05:45.695 D/GSM     ( 1267): [GsmDataConnection-1] clearSettings
+01-01 00:05:45.695 D/GSM     ( 1267): GSMPhone.java isDataConnectivityPossible() skip check SIM ready
+01-01 00:05:45.718 D/GSM     ( 1267): [GsmDataConnection-1] DcInactiveState msg.what=EVENT_CONNECT
+01-01 00:05:45.718 D/GSM     ( 1267): [GsmDataConnection-1] Connecting to carrier: 'Sprint' APN: 'cinet.spcs' proxy: 'null' port: 'null
+01-01 00:05:45.718 D/RILJ    ( 1267): [0038]> SETUP_DATA_CALL 1 0 cinet.spcs * * 0 null
+01-01 00:05:45.742 E/RILJ    ( 1267): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:05:45.742 D/RIL     ( 1070): onRequest: state=2 token=0xf570 req=27 RIL_REQUEST_SETUP_DATA_CALL
+01-01 00:05:45.750 D/GSM     ( 1267): GSMPhone.java isDataConnectivityPossible() skip check SIM ready
+01-01 00:05:45.789 D/RIL     ( 1070): requestSetupDataCallEVDO started /system/bin/pppd call ttyUSB0
+01-01 00:05:45.851 D/AT      ( 1070): AT< NO CARRIER
+01-01 00:05:45.851 D/RIL     ( 1070): onUnsolicited:1438 bypassed CALL_STATE_CHANGED
+01-01 00:05:52.804 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:05:52.820 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:05:52.820 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:05:52.820 D/AT      ( 1070): AT< OK
+01-01 00:05:52.820 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:05:52.835 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:05:52.835 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:05:52.835 D/AT      ( 1070): AT< OK
+01-01 00:06:02.835 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:06:02.851 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:06:02.851 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:06:02.851 D/AT      ( 1070): AT< OK
+01-01 00:06:02.851 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:06:02.867 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:06:02.867 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:06:02.867 D/AT      ( 1070): AT< OK
+01-01 00:06:12.867 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:06:12.882 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:06:12.882 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:06:12.882 D/AT      ( 1070): AT< OK
+01-01 00:06:12.882 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:06:12.898 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:06:12.898 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:06:12.898 D/AT      ( 1070): AT< OK
+01-01 00:06:15.867 D/RILJ    ( 1267): [0038]< SETUP_DATA_CALL error: com.android.internal.telephony.CommandException: GENERIC_FAILURE
+01-01 00:06:15.867 D/GSM     ( 1267): [GsmDataConnection-1] DcActivatingState msg.what=EVENT_SETUP_DATA_CONNECTION_DONE
+01-01 00:06:15.867 D/GSM     ( 1267): [GsmDataConnection-1] DataConnection Init failed com.android.internal.telephony.CommandException: GENERIC_FAILURE
+01-01 00:06:15.867 D/GSM     ( 1267): [GsmDataConnection-1] DataConnection setup result='Other error' on cid=-1
+01-01 00:06:15.867 D/RILJ    ( 1267): [0039]> LAST_DATA_CALL_FAIL_CAUSE
+01-01 00:06:15.875 E/RILJ    ( 1267): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:06:15.875 D/RIL     ( 1070): onRequest: state=2 token=0xf528 req=56 RIL_REQUEST_LAST_DATA_CALL_FAIL_CAUSE
+01-01 00:06:15.875 D/RILJ    ( 1267): [0039]< LAST_DATA_CALL_FAIL_CAUSE {65535}
+01-01 00:06:15.882 D/GSM     ( 1267): [GsmDataConnection-1] DcActivatingState msg.what=EVENT_GET_LAST_FAIL_DONE
+01-01 00:06:15.882 D/GSM     ( 1267): [GsmDataConnection-1] DcInactiveState: setEnterNoticationParams cp,cause
+01-01 00:06:15.882 D/GSM     ( 1267): [GsmDataConnection-1] DcInactiveState: enter notifyConnectCompleted
+01-01 00:06:15.882 D/GSM     ( 1267): [GsmDataConnection-1] notifyConnection at 946685175884 cause=Unknown Data Error
+01-01 00:06:22.898 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:06:22.914 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:06:22.914 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:06:22.914 D/AT      ( 1070): AT< OK
+01-01 00:06:22.914 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:06:22.929 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:06:22.929 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:06:22.929 D/AT      ( 1070): AT< OK
+01-01 00:06:22.984 D/AT      ( 1070): AT< $GPGGA,234014.000,3307.055350,N,11718.467958,W,1,4,2.37,65.754,M,-35.160,M,,*5B
+01-01 00:06:22.992 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:22.992 D/AT      ( 1070): AT< $GPGLL,3307.055350,N,11718.467958,W,234014.000,A,A*45
+01-01 00:06:23.000 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:23.000 D/AT      ( 1070): AT< $GPGSA,A,3,22,03,19,09,,,,,,,,,2.55,2.37,0.94*09
+01-01 00:06:23.015 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:23.015 D/AT      ( 1070): AT< $GPGST,234014.000,0.000,62,19,178,62,19,73*5D
+01-01 00:06:23.023 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:23.023 D/AT      ( 1070): AT< $GPGSV,2,1,05,22,64,340,34,03,39,259,29,19,31,303,42,09,22,066,33*74
+01-01 00:06:23.039 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:23.039 D/AT      ( 1070): AT< $GPGSV,2,2,05,06,,,26*7E
+01-01 00:06:23.046 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:23.046 D/AT      ( 1070): AT< $GPRMC,234014.000,A,3307.055350,N,11718.467958,W,1.078,2.3,141211,,,A*7B
+01-01 00:06:23.054 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:23.054 D/AT      ( 1070): AT< $GPVTG,2.3,T,,M,1.078,N,1.997,K,A*04
+01-01 00:06:23.070 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:23.070 D/AT      ( 1070): AT< $GPZDA,234014.000,14,12,2011,,*52
+01-01 00:06:23.078 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:32.929 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:06:32.945 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:06:32.945 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:06:32.945 D/AT      ( 1070): AT< OK
+01-01 00:06:32.945 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:06:32.960 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:06:32.960 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:06:32.960 D/AT      ( 1070): AT< OK
+01-01 00:06:33.999 D/AT      ( 1070): AT< $GPGGA,234025.000,3307.056293,N,11718.467828,W,1,4,2.37,67.160,M,-35.160,M,,*51
+01-01 00:06:34.007 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:34.007 D/AT      ( 1070): AT< $GPGLL,3307.056293,N,11718.467828,W,234025.000,A,A*4C
+01-01 00:06:34.015 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:34.015 D/AT      ( 1070): AT< $GPGSA,A,3,22,03,19,09,,,,,,,,,2.55,2.37,0.94*09
+01-01 00:06:34.031 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:34.031 D/AT      ( 1070): AT< $GPGST,234025.000,2.2,29,11,167,28,13,59*5A
+01-01 00:06:34.039 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:34.039 D/AT      ( 1070): AT< $GPGSV,2,1,05,22,64,340,35,03,39,259,30,19,31,303,41,09,22,066,33*7E
+01-01 00:06:34.046 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:34.046 D/AT      ( 1070): AT< $GPGSV,2,2,05,06,,,28*70
+01-01 00:06:34.062 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:34.062 D/AT      ( 1070): AT< $GPRMC,234025.000,A,3307.056293,N,11718.467828,W,1.056,0.0,141211,,,A*7F
+01-01 00:06:34.070 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:34.070 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,1.056,N,1.957,K,A*05
+01-01 00:06:34.078 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:34.078 D/AT      ( 1070): AT< $GPZDA,234025.000,14,12,2011,,*50
+01-01 00:06:34.093 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:42.960 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:06:42.976 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:06:42.976 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:06:42.976 D/AT      ( 1070): AT< OK
+01-01 00:06:42.976 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:06:42.992 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:06:42.992 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:06:42.992 D/AT      ( 1070): AT< OK
+01-01 00:06:44.929 D/AT      ( 1070): AT< $GPGGA,234036.000,3307.055796,N,11718.467807,W,1,4,2.37,66.758,M,-35.160,M,,*51
+01-01 00:06:44.937 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:44.937 D/AT      ( 1070): AT< $GPGLL,3307.055796,N,11718.467807,W,234036.000,A,A*40
+01-01 00:06:44.945 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:44.945 D/AT      ( 1070): AT< $GPGSA,A,3,22,03,19,09,,,,,,,,,2.55,2.37,0.94*09
+01-01 00:06:44.960 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:44.960 D/AT      ( 1070): AT< $GPGST,234036.000,2.3,28,11,166,27,12,59*57
+01-01 00:06:44.968 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:44.968 D/AT      ( 1070): AT< $GPGSV,2,1,05,22,64,340,35,06,44,244,24,03,39,259,30,19,32,303,41*76
+01-01 00:06:44.976 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:44.976 D/AT      ( 1070): AT< $GPGSV,2,2,05,09,22,066,34*42
+01-01 00:06:44.992 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:44.992 D/AT      ( 1070): AT< $GPRMC,234036.000,A,3307.055796,N,11718.467807,W,1.250,0.0,141211,,,A*77
+01-01 00:06:45.000 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:45.000 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,1.250,N,2.316,K,A*0D
+01-01 00:06:45.007 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:45.007 D/AT      ( 1070): AT< $GPZDA,234036.000,14,12,2011,,*52
+01-01 00:06:45.023 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:52.992 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:06:53.007 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:06:53.007 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:06:53.007 D/AT      ( 1070): AT< OK
+01-01 00:06:53.007 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:06:53.023 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:06:53.023 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:06:53.023 D/AT      ( 1070): AT< OK
+01-01 00:06:55.937 D/AT      ( 1070): AT< $GPGGA,234047.000,3307.054450,N,11718.467987,W,1,4,2.37,66.330,M,-35.160,M,,*5C
+01-01 00:06:55.945 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:55.945 D/AT      ( 1070): AT< $GPGLL,3307.054450,N,11718.467987,W,234047.000,A,A*47
+01-01 00:06:55.953 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:55.953 D/AT      ( 1070): AT< $GPGSA,A,3,22,03,19,09,,,,,,,,,2.55,2.37,0.94*09
+01-01 00:06:55.968 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:55.968 D/AT      ( 1070): AT< $GPGST,234047.000,2.4,28,11,166,27,12,59*56
+01-01 00:06:55.976 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:55.976 D/AT      ( 1070): AT< $GPGSV,2,1,05,22,64,341,34,06,44,244,28,03,39,259,30,19,32,303,42*79
+01-01 00:06:55.984 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:55.984 D/AT      ( 1070): AT< $GPGSV,2,2,05,09,22,066,33*45
+01-01 00:06:56.000 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:56.000 D/AT      ( 1070): AT< $GPRMC,234047.000,A,3307.054450,N,11718.467987,W,0.000,0.0,141211,,,A*76
+01-01 00:06:56.007 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:56.007 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,0.000,N,0.000,K,A*0D
+01-01 00:06:56.015 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:06:56.015 D/AT      ( 1070): AT< $GPZDA,234047.000,14,12,2011,,*54
+01-01 00:06:56.031 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:03.023 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:07:03.039 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:07:03.039 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:07:03.039 D/AT      ( 1070): AT< OK
+01-01 00:07:03.039 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:07:03.054 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:07:03.054 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:07:03.054 D/AT      ( 1070): AT< OK
+01-01 00:07:06.929 D/AT      ( 1070): AT< $GPGGA,234058.000,3307.054815,N,11718.467630,W,1,4,2.36,67.146,M,-35.160,M,,*5F
+01-01 00:07:06.937 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:06.937 D/AT      ( 1070): AT< $GPGLL,3307.054815,N,11718.467630,W,234058.000,A,A*47
+01-01 00:07:06.945 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:06.945 D/AT      ( 1070): AT< $GPGSA,A,3,22,03,19,09,,,,,,,,,2.55,2.36,0.94*08
+01-01 00:07:06.960 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:06.960 D/AT      ( 1070): AT< $GPGST,234058.000,3.1,28,11,166,28,12,59*53
+01-01 00:07:06.968 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:06.968 D/AT      ( 1070): AT< $GPGSV,2,1,05,22,64,341,34,06,44,244,28,03,39,259,28,19,32,303,42*70
+01-01 00:07:06.976 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:06.976 D/AT      ( 1070): AT< $GPGSV,2,2,05,09,22,066,33*45
+01-01 00:07:06.992 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:06.992 D/AT      ( 1070): AT< $GPRMC,234058.000,A,3307.054815,N,11718.467630,W,0.907,0.0,141211,,,A*78
+01-01 00:07:06.999 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:06.999 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,0.907,N,1.680,K,A*0C
+01-01 00:07:07.007 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:07.007 D/AT      ( 1070): AT< $GPZDA,234058.000,14,12,2011,,*5A
+01-01 00:07:07.023 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:13.054 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:07:13.070 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:07:13.070 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:07:13.070 D/AT      ( 1070): AT< OK
+01-01 00:07:13.070 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:07:13.085 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:07:13.085 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:07:13.085 D/AT      ( 1070): AT< OK
+01-01 00:07:16.984 D/AT      ( 1070): AT< $GPGGA,234108.000,3307.054445,N,11718.468032,W,1,4,2.37,67.183,M,-35.160,M,,*51
+01-01 00:07:16.992 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:16.992 D/AT      ( 1070): AT< $GPGLL,3307.054445,N,11718.468032,W,234108.000,A,A*41
+01-01 00:07:17.000 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:17.000 D/AT      ( 1070): AT< $GPGSA,A,3,22,03,19,09,,,,,,,,,2.55,2.37,0.94*09
+01-01 00:07:17.015 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:17.015 D/AT      ( 1070): AT< $GPGST,234108.000,3.4,28,11,167,28,12,58*52
+01-01 00:07:17.023 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:17.023 D/AT      ( 1070): AT< $GPGSV,2,1,05,22,64,341,36,06,44,244,26,03,39,259,28,19,32,303,40*7E
+01-01 00:07:17.031 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:17.031 D/AT      ( 1070): AT< $GPGSV,2,2,05,09,22,066,33*45
+01-01 00:07:17.046 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:17.046 D/AT      ( 1070): AT< $GPRMC,234108.000,A,3307.054445,N,11718.468032,W,1.134,0.0,141211,,,A*77
+01-01 00:07:17.054 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:17.054 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,1.134,N,2.101,K,A*08
+01-01 00:07:17.070 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:17.070 D/AT      ( 1070): AT< $GPZDA,234108.000,14,12,2011,,*5E
+01-01 00:07:17.078 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:23.085 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:07:23.101 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:07:23.101 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:07:23.101 D/AT      ( 1070): AT< OK
+01-01 00:07:23.101 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:07:23.117 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:07:23.117 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:07:23.117 D/AT      ( 1070): AT< OK
+01-01 00:07:28.015 D/AT      ( 1070): AT< $GPGGA,234119.000,3307.053660,N,11718.468250,W,1,4,2.37,64.894,M,-35.160,M,,*59
+01-01 00:07:28.023 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:28.023 D/AT      ( 1070): AT< $GPGLL,3307.053660,N,11718.468250,W,234119.000,A,A*45
+01-01 00:07:28.031 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:28.031 D/AT      ( 1070): AT< $GPGSA,A,3,22,03,19,09,,,,,,,,,2.55,2.37,0.94*09
+01-01 00:07:28.046 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:28.046 D/AT      ( 1070): AT< $GPGST,234119.000,3.6,28,11,167,28,12,60*5B
+01-01 00:07:28.054 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:28.054 D/AT      ( 1070): AT< $GPGSV,2,1,05,22,64,341,33,06,44,244,27,03,39,259,28,19,32,303,40*7A
+01-01 00:07:28.062 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:28.062 D/AT      ( 1070): AT< $GPGSV,2,2,05,09,22,066,31*47
+01-01 00:07:28.078 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:28.078 D/AT      ( 1070): AT< $GPRMC,234119.000,A,3307.053660,N,11718.468250,W,0.770,0.0,141211,,,A*74
+01-01 00:07:28.085 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:28.085 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,0.770,N,1.426,K,A*0C
+01-01 00:07:28.101 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:28.101 D/AT      ( 1070): AT< $GPZDA,234119.000,14,12,2011,,*5E
+01-01 00:07:28.109 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:33.117 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:07:33.132 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:07:33.132 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:07:33.132 D/AT      ( 1070): AT< OK
+01-01 00:07:33.132 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:07:33.148 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:07:33.148 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:07:33.148 D/AT      ( 1070): AT< OK
+01-01 00:07:38.953 D/AT      ( 1070): AT< $GPGGA,234130.000,3307.052443,N,11718.468608,W,1,4,2.36,64.404,M,-35.160,M,,*5D
+01-01 00:07:38.960 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:38.960 D/AT      ( 1070): AT< $GPGLL,3307.052443,N,11718.468608,W,234130.000,A,A*45
+01-01 00:07:38.968 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:38.968 D/AT      ( 1070): AT< $GPGSA,A,3,22,03,19,09,,,,,,,,,2.55,2.36,0.94*08
+01-01 00:07:38.984 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:38.984 D/AT      ( 1070): AT< $GPGST,234130.000,3.3,28,11,166,27,12,59*51
+01-01 00:07:38.992 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:38.992 D/AT      ( 1070): AT< $GPGSV,2,1,05,22,64,341,34,06,44,244,27,03,39,259,30,19,32,303,40*74
+01-01 00:07:38.999 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:38.999 D/AT      ( 1070): AT< $GPGSV,2,2,05,09,22,066,35*43
+01-01 00:07:39.015 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:39.015 D/AT      ( 1070): AT< $GPRMC,234130.000,A,3307.052443,N,11718.468608,W,0.000,0.0,141211,,,A*74
+01-01 00:07:39.023 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:39.023 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,0.000,N,0.000,K,A*0D
+01-01 00:07:39.031 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:39.031 D/AT      ( 1070): AT< $GPZDA,234130.000,14,12,2011,,*55
+01-01 00:07:39.046 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:43.148 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:07:43.164 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:07:43.164 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:07:43.164 D/AT      ( 1070): AT< OK
+01-01 00:07:43.164 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:07:43.179 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:07:43.179 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:07:43.179 D/AT      ( 1070): AT< OK
+01-01 00:07:49.921 D/AT      ( 1070): AT< $GPGGA,234141.000,3307.053567,N,11718.468679,W,1,4,2.36,64.493,M,-35.160,M,,*55
+01-01 00:07:49.929 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:49.929 D/AT      ( 1070): AT< $GPGLL,3307.053567,N,11718.468679,W,234141.000,A,A*43
+01-01 00:07:49.937 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:49.937 D/AT      ( 1070): AT< $GPGSA,A,3,22,03,19,09,,,,,,,,,2.54,2.36,0.94*09
+01-01 00:07:49.953 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:49.953 D/AT      ( 1070): AT< $GPGST,234141.000,3.5,27,11,165,27,12,59*5D
+01-01 00:07:49.960 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:49.960 D/AT      ( 1070): AT< $GPGSV,2,1,06,22,64,341,33,06,44,244,26,03,39,259,32,19,32,303,41*72
+01-01 00:07:49.968 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:49.968 D/AT      ( 1070): AT< $GPGSV,2,2,06,09,22,065,35,18,,,28*40
+01-01 00:07:49.984 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:49.984 D/AT      ( 1070): AT< $GPRMC,234141.000,A,3307.053567,N,11718.468679,W,0.980,0.0,141211,,,A*73
+01-01 00:07:49.992 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:49.992 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,0.980,N,1.817,K,A*03
+01-01 00:07:49.999 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:49.999 D/AT      ( 1070): AT< $GPZDA,234141.000,14,12,2011,,*53
+01-01 00:07:50.015 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:53.179 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:07:53.195 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:07:53.195 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:07:53.195 D/AT      ( 1070): AT< OK
+01-01 00:07:53.195 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:07:53.210 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:07:53.210 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:07:53.210 D/AT      ( 1070): AT< OK
+01-01 00:07:59.984 D/AT      ( 1070): AT< $GPGGA,234151.000,3307.054079,N,11718.468915,W,1,4,2.36,64.540,M,-35.160,M,,*53
+01-01 00:07:59.992 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:07:59.992 D/AT      ( 1070): AT< $GPGLL,3307.054079,N,11718.468915,W,234151.000,A,A*4A
+01-01 00:08:00.070 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:00.070 D/AT      ( 1070): AT< $GPGSA,A,3,22,03,19,09,,,,,,,,,2.55,2.36,0.94*08
+01-01 00:08:00.101 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:00.101 D/AT      ( 1070): AT< $GPGST,234151.000,3.6,28,11,166,27,12,59*53
+01-01 00:08:00.109 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:00.109 D/AT      ( 1070): AT< $GPGSV,2,1,06,22,64,342,34,06,44,244,23,03,39,259,29,19,32,303,39*76
+01-01 00:08:00.125 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:00.125 D/AT      ( 1070): AT< $GPGSV,2,2,06,09,22,065,35,18,,,29*41
+01-01 00:08:00.132 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:00.132 D/AT      ( 1070): AT< $GPRMC,234151.000,A,3307.054079,N,11718.468915,W,1.171,0.0,141211,,,A*7D
+01-01 00:08:00.148 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:00.148 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,1.171,N,2.170,K,A*0F
+01-01 00:08:00.156 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:00.156 D/AT      ( 1070): AT< $GPZDA,234151.000,14,12,2011,,*52
+01-01 00:08:00.164 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:03.210 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:08:03.226 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:08:03.226 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:08:03.226 D/AT      ( 1070): AT< OK
+01-01 00:08:03.226 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:08:03.242 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:08:03.242 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:08:03.242 D/AT      ( 1070): AT< OK
+01-01 00:08:10.039 D/AT      ( 1070): AT< $GPGGA,234201.000,3307.054304,N,11718.469277,W,1,4,2.36,64.014,M,-35.160,M,,*56
+01-01 00:08:10.046 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:10.046 D/AT      ( 1070): AT< $GPGLL,3307.054304,N,11718.469277,W,234201.000,A,A*4B
+01-01 00:08:10.062 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:10.062 D/AT      ( 1070): AT< $GPGSA,A,3,22,03,19,09,,,,,,,,,2.54,2.36,0.94*09
+01-01 00:08:10.070 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:10.070 D/AT      ( 1070): AT< $GPGST,234201.000,3.6,29,11,167,28,12,59*5A
+01-01 00:08:10.085 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:10.085 D/AT      ( 1070): AT< $GPGSV,2,1,06,22,64,342,35,06,44,244,24,03,39,258,25,19,32,303,39*7D
+01-01 00:08:10.093 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:10.093 D/AT      ( 1070): AT< $GPGSV,2,2,06,09,22,065,36,18,,,26*4D
+01-01 00:08:10.109 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:10.109 D/AT      ( 1070): AT< $GPRMC,234201.000,A,3307.054304,N,11718.469277,W,1.517,0.0,141211,,,A*78
+01-01 00:08:10.117 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:10.117 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,1.517,N,2.811,K,A*05
+01-01 00:08:10.132 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:10.132 D/AT      ( 1070): AT< $GPZDA,234201.000,14,12,2011,,*54
+01-01 00:08:10.140 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:13.242 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:08:13.257 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:08:13.257 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:08:13.257 D/AT      ( 1070): AT< OK
+01-01 00:08:13.257 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:08:13.273 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:08:13.273 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:08:13.273 D/AT      ( 1070): AT< OK
+01-01 00:08:20.945 D/AT      ( 1070): AT< $GPGGA,234212.000,3307.050448,N,11718.469957,W,1,4,2.36,63.303,M,-35.160,M,,*54
+01-01 00:08:20.953 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:20.953 D/AT      ( 1070): AT< $GPGLL,3307.050448,N,11718.469957,W,234212.000,A,A*4B
+01-01 00:08:20.968 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:20.968 D/AT      ( 1070): AT< $GPGSA,A,3,22,03,19,09,,,,,,,,,2.54,2.36,0.94*09
+01-01 00:08:20.976 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:20.976 D/AT      ( 1070): AT< $GPGST,234212.000,3.6,30,11,168,30,13,60*5D
+01-01 00:08:20.992 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:20.992 D/AT      ( 1070): AT< $GPGSV,2,1,06,22,64,342,32,06,44,243,27,03,39,258,23,19,32,303,39*78
+01-01 00:08:21.000 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:21.000 D/AT      ( 1070): AT< $GPGSV,2,2,06,09,22,065,34,18,,,29*40
+01-01 00:08:21.015 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:21.015 D/AT      ( 1070): AT< $GPRMC,234212.000,A,3307.050448,N,11718.469957,W,1.745,0.0,141211,,,A*7D
+01-01 00:08:21.023 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:21.023 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,1.745,N,3.234,K,A*0C
+01-01 00:08:21.039 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:21.039 D/AT      ( 1070): AT< $GPZDA,234212.000,14,12,2011,,*56
+01-01 00:08:21.046 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:23.273 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:08:23.289 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:08:23.289 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:08:23.289 D/AT      ( 1070): AT< OK
+01-01 00:08:23.289 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:08:23.304 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:08:23.304 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:08:23.304 D/AT      ( 1070): AT< OK
+01-01 00:08:30.976 D/AT      ( 1070): AT< $GPGGA,234222.000,3307.052305,N,11718.469886,W,1,5,1.79,63.350,M,-35.160,M,,*59
+01-01 00:08:30.984 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:30.984 D/AT      ( 1070): AT< $GPGLL,3307.052305,N,11718.469886,W,234222.000,A,A*49
+01-01 00:08:30.992 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:30.992 D/AT      ( 1070): AT< $GPGSA,A,3,22,06,03,19,09,,,,,,,,2.02,1.79,0.94*04
+01-01 00:08:31.007 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:31.007 D/AT      ( 1070): AT< $GPGST,234222.000,3.9,21,10,156,19,12,58*5C
+01-01 00:08:31.023 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:31.023 D/AT      ( 1070): AT< $GPGSV,2,1,06,22,64,342,35,06,44,243,30,03,39,258,26,19,32,302,41*72
+01-01 00:08:31.031 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:31.031 D/AT      ( 1070): AT< $GPGSV,2,2,06,09,22,065,34,18,,,30*48
+01-01 00:08:31.039 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:31.039 D/AT      ( 1070): AT< $GPRMC,234222.000,A,3307.052305,N,11718.469886,W,0.000,0.0,141211,,,A*78
+01-01 00:08:31.054 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:31.054 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,0.000,N,0.000,K,A*0D
+01-01 00:08:31.062 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:31.062 D/AT      ( 1070): AT< $GPZDA,234222.000,14,12,2011,,*55
+01-01 00:08:31.078 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:33.304 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:08:33.320 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:08:33.320 D/AT      ( 1070): AT< +CSQ:15,99
+01-01 00:08:33.320 D/AT      ( 1070): AT< OK
+01-01 00:08:33.320 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:08:33.335 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:08:33.335 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:08:33.335 D/AT      ( 1070): AT< OK
+01-01 00:08:42.000 D/AT      ( 1070): AT< $GPGGA,234233.000,3307.052305,N,11718.469886,W,1,5,1.79,63.350,M,-35.160,M,,*59
+01-01 00:08:42.007 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:42.007 D/AT      ( 1070): AT< $GPGLL,3307.052305,N,11718.469886,W,234233.000,A,A*49
+01-01 00:08:42.015 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:42.015 D/AT      ( 1070): AT< $GPGSA,A,3,22,06,03,19,09,,,,,,,,2.02,1.79,0.94*04
+01-01 00:08:42.031 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:42.031 D/AT      ( 1070): AT< $GPGST,234233.000,3.8,21,10,156,19,12,58*5D
+01-01 00:08:42.039 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:42.039 D/AT      ( 1070): AT< $GPGSV,2,1,06,22,64,342,35,06,44,243,28,03,39,258,28,19,32,302,40*74
+01-01 00:08:42.046 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:42.046 D/AT      ( 1070): AT< $GPGSV,2,2,06,09,22,065,30,18,,,30*4C
+01-01 00:08:42.062 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:42.062 D/AT      ( 1070): AT< $GPRMC,234233.000,A,3307.052305,N,11718.469886,W,0.000,0.0,141211,,,A*78
+01-01 00:08:42.070 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:42.070 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,0.000,N,0.000,K,A*0D
+01-01 00:08:42.078 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:42.078 D/AT      ( 1070): AT< $GPZDA,234233.000,14,12,2011,,*55
+01-01 00:08:42.093 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:43.335 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:08:43.351 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:08:43.351 D/AT      ( 1070): AT< +CSQ:15,99
+01-01 00:08:43.351 D/AT      ( 1070): AT< OK
+01-01 00:08:43.351 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:08:43.367 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:08:43.367 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:08:43.367 D/AT      ( 1070): AT< OK
+01-01 00:08:52.070 D/AT      ( 1070): AT< $GPGGA,234243.000,3307.054474,N,11718.469377,W,1,6,1.75,63.384,M,-35.160,M,,*5A
+01-01 00:08:52.078 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:52.078 D/AT      ( 1070): AT< $GPGLL,3307.054474,N,11718.469377,W,234243.000,A,A*4C
+01-01 00:08:52.085 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:52.085 D/AT      ( 1070): AT< $GPGSA,A,3,22,06,18,03,19,09,,,,,,,1.98,1.75,0.94*01
+01-01 00:08:52.101 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:52.101 D/AT      ( 1070): AT< $GPGST,234243.000,4.0,20,8.0,160,19,10,59*75
+01-01 00:08:52.109 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:52.109 D/AT      ( 1070): AT< $GPGSV,2,1,06,22,64,342,32,06,44,243,28,18,42,053,32,03,39,258,31*7F
+01-01 00:08:52.117 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:52.117 D/AT      ( 1070): AT< $GPGSV,2,2,06,19,32,302,41,09,22,065,24*7E
+01-01 00:08:52.132 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:52.132 D/AT      ( 1070): AT< $GPRMC,234243.000,A,3307.054474,N,11718.469377,W,0.894,0.0,141211,,,A*78
+01-01 00:08:52.140 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:52.140 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,0.894,N,1.657,K,A*0D
+01-01 00:08:52.148 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:52.148 D/AT      ( 1070): AT< $GPZDA,234243.000,14,12,2011,,*52
+01-01 00:08:52.164 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:08:53.367 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:08:53.382 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:08:53.382 D/AT      ( 1070): AT< +CSQ:15,99
+01-01 00:08:53.382 D/AT      ( 1070): AT< OK
+01-01 00:08:53.382 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:08:53.398 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:08:53.398 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:08:53.398 D/AT      ( 1070): AT< OK
+01-01 00:09:00.500 D/GSM     ( 1267): [GsmDataConnection-1] DcInactiveState: msg.what=EVENT_RESET, ignore we're already reset
+01-01 00:09:00.500 D/GSM     ( 1267): [GsmDataConnection-1] NotifyDisconnectCompleted
+01-01 00:09:00.500 D/GSM     ( 1267): [GsmDataConnection-1] clearSettings
+01-01 00:09:00.500 D/GSM     ( 1267): GSMPhone.java isDataConnectivityPossible() skip check SIM ready
+01-01 00:09:00.523 D/GSM     ( 1267): [GsmDataConnection-1] DcInactiveState msg.what=EVENT_CONNECT
+01-01 00:09:00.523 D/GSM     ( 1267): [GsmDataConnection-1] Connecting to carrier: 'Sprint' APN: 'cinet.spcs' proxy: 'null' port: 'null
+01-01 00:09:00.531 D/RILJ    ( 1267): [0040]> SETUP_DATA_CALL 1 0 cinet.spcs * * 0 null
+01-01 00:09:00.554 E/RILJ    ( 1267): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:09:00.554 D/RIL     ( 1070): onRequest: state=2 token=0xff50 req=27 RIL_REQUEST_SETUP_DATA_CALL
+01-01 00:09:00.554 D/GSM     ( 1267): GSMPhone.java isDataConnectivityPossible() skip check SIM ready
+01-01 00:09:00.609 D/RIL     ( 1070): requestSetupDataCallEVDO started /system/bin/pppd call ttyUSB0
+01-01 00:09:02.984 D/AT      ( 1070): AT< $GPGGA,234254.000,3307.054549,N,11718.469318,W,1,6,1.75,63.389,M,-35.160,M,,*57
+01-01 00:09:02.992 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:02.992 D/AT      ( 1070): AT< $GPGLL,3307.054549,N,11718.469318,W,234254.000,A,A*4C
+01-01 00:09:03.000 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:03.000 D/AT      ( 1070): AT< $GPGSA,A,3,22,06,18,03,19,09,,,,,,,1.98,1.75,0.94*01
+01-01 00:09:03.015 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:03.015 D/AT      ( 1070): AT< $GPGST,234254.000,3.8,20,8.1,159,19,10,59*77
+01-01 00:09:03.023 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:03.023 D/AT      ( 1070): AT< $GPGSV,2,1,06,22,64,343,36,06,44,243,28,18,42,054,30,03,39,258,27*78
+01-01 00:09:03.031 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:03.031 D/AT      ( 1070): AT< $GPGSV,2,2,06,19,32,302,40,09,22,065,20*7B
+01-01 00:09:03.046 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:03.046 D/AT      ( 1070): AT< $GPRMC,234254.000,A,3307.054549,N,11718.469318,W,0.000,0.0,141211,,,A*7D
+01-01 00:09:03.054 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:03.054 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,0.000,N,0.000,K,A*0D
+01-01 00:09:03.062 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:03.062 D/AT      ( 1070): AT< $GPZDA,234254.000,14,12,2011,,*54
+01-01 00:09:03.078 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:03.398 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:09:03.414 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:09:03.414 D/AT      ( 1070): AT< +CSQ:15,99
+01-01 00:09:03.414 D/AT      ( 1070): AT< OK
+01-01 00:09:03.414 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:09:03.429 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:09:03.429 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:09:03.429 D/AT      ( 1070): AT< OK
+01-01 00:09:13.429 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:09:13.445 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:09:13.445 D/AT      ( 1070): AT< +CSQ:15,99
+01-01 00:09:13.445 D/AT      ( 1070): AT< OK
+01-01 00:09:13.445 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:09:13.460 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:09:13.460 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:09:13.460 D/AT      ( 1070): AT< OK
+01-01 00:09:13.984 D/AT      ( 1070): AT< $GPGGA,234305.000,3307.054495,N,11718.468886,W,1,6,1.75,63.390,M,-35.160,M,,*57
+01-01 00:09:13.992 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:13.992 D/AT      ( 1070): AT< $GPGLL,3307.054495,N,11718.468886,W,234305.000,A,A*44
+01-01 00:09:14.062 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:14.062 D/AT      ( 1070): AT< $GPGSA,A,3,22,06,18,03,19,09,,,,,,,1.98,1.75,0.94*01
+01-01 00:09:14.070 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:14.070 D/AT      ( 1070): AT< $GPGST,234305.000,4.5,20,8.3,159,19,11,59*7B
+01-01 00:09:14.085 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:14.085 D/AT      ( 1070): AT< $GPGSV,2,1,06,22,64,343,34,06,44,243,29,18,42,054,29,03,39,258,28*7C
+01-01 00:09:14.093 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:14.093 D/AT      ( 1070): AT< $GPGSV,2,2,06,19,32,302,40,09,22,065,19*71
+01-01 00:09:14.101 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:14.109 D/AT      ( 1070): AT< $GPRMC,234305.000,A,3307.054495,N,11718.468886,W,0.710,0.0,141211,,,A*73
+01-01 00:09:14.117 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:14.117 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,0.710,N,1.315,K,A*0D
+01-01 00:09:14.125 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:14.125 D/AT      ( 1070): AT< $GPZDA,234305.000,14,12,2011,,*51
+01-01 00:09:14.140 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:23.460 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:09:23.476 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:09:23.476 D/AT      ( 1070): AT< +CSQ:15,99
+01-01 00:09:23.476 D/AT      ( 1070): AT< OK
+01-01 00:09:23.476 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:09:23.492 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:09:23.492 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:09:23.492 D/AT      ( 1070): AT< OK
+01-01 00:09:25.015 D/AT      ( 1070): AT< $GPGGA,234316.000,3307.054435,N,11718.468652,W,1,6,1.75,63.311,M,-35.160,M,,*51
+01-01 00:09:25.023 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:25.023 D/AT      ( 1070): AT< $GPGLL,3307.054435,N,11718.468652,W,234316.000,A,A*4B
+01-01 00:09:25.031 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:25.031 D/AT      ( 1070): AT< $GPGSA,A,3,22,06,18,03,19,09,,,,,,,1.98,1.75,0.94*01
+01-01 00:09:25.046 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:25.046 D/AT      ( 1070): AT< $GPGST,234316.000,4.9,21,8.6,161,21,11,60*7B
+01-01 00:09:25.054 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:25.054 D/AT      ( 1070): AT< $GPGSV,2,1,06,22,64,343,36,06,43,243,25,18,42,054,31,03,39,258,26*72
+01-01 00:09:25.070 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:25.070 D/AT      ( 1070): AT< $GPGSV,2,2,06,19,32,302,41,09,22,065,17*7E
+01-01 00:09:25.078 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:25.078 D/AT      ( 1070): AT< $GPRMC,234316.000,A,3307.054435,N,11718.468652,W,1.126,0.0,141211,,,A*7E
+01-01 00:09:25.085 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:25.085 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,1.126,N,2.087,K,A*04
+01-01 00:09:25.101 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:25.101 D/AT      ( 1070): AT< $GPZDA,234316.000,14,12,2011,,*53
+01-01 00:09:25.109 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:30.710 D/RILJ    ( 1267): [0040]< SETUP_DATA_CALL error: com.android.internal.telephony.CommandException: GENERIC_FAILURE
+01-01 00:09:30.710 D/GSM     ( 1267): [GsmDataConnection-1] DcActivatingState msg.what=EVENT_SETUP_DATA_CONNECTION_DONE
+01-01 00:09:30.710 D/GSM     ( 1267): [GsmDataConnection-1] DataConnection Init failed com.android.internal.telephony.CommandException: GENERIC_FAILURE
+01-01 00:09:30.710 D/GSM     ( 1267): [GsmDataConnection-1] DataConnection setup result='Other error' on cid=-1
+01-01 00:09:30.710 D/RILJ    ( 1267): [0041]> LAST_DATA_CALL_FAIL_CAUSE
+01-01 00:09:30.718 E/RILJ    ( 1267): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:09:30.718 D/RIL     ( 1070): onRequest: state=2 token=0xff08 req=56 RIL_REQUEST_LAST_DATA_CALL_FAIL_CAUSE
+01-01 00:09:30.718 D/RILJ    ( 1267): [0041]< LAST_DATA_CALL_FAIL_CAUSE {65535}
+01-01 00:09:30.718 D/GSM     ( 1267): [GsmDataConnection-1] DcActivatingState msg.what=EVENT_GET_LAST_FAIL_DONE
+01-01 00:09:30.718 D/GSM     ( 1267): [GsmDataConnection-1] DcInactiveState: setEnterNoticationParams cp,cause
+01-01 00:09:30.718 D/GSM     ( 1267): [GsmDataConnection-1] DcInactiveState: enter notifyConnectCompleted
+01-01 00:09:30.718 D/GSM     ( 1267): [GsmDataConnection-1] notifyConnection at 946685370725 cause=Unknown Data Error
+01-01 00:09:33.492 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:09:33.507 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:09:33.507 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:09:33.507 D/AT      ( 1070): AT< OK
+01-01 00:09:33.507 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:09:33.523 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:09:33.523 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:09:33.523 D/AT      ( 1070): AT< OK
+01-01 00:09:36.015 D/AT      ( 1070): AT< $GPGGA,234327.000,3307.054210,N,11718.468518,W,1,6,1.75,63.311,M,-35.160,M,,*5F
+01-01 00:09:36.023 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:36.023 D/AT      ( 1070): AT< $GPGLL,3307.054210,N,11718.468518,W,234327.000,A,A*45
+01-01 00:09:36.031 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:36.031 D/AT      ( 1070): AT< $GPGSA,A,3,22,06,18,03,19,09,,,,,,,1.98,1.75,0.94*01
+01-01 00:09:36.046 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:36.046 D/AT      ( 1070): AT< $GPGST,234327.000,4.6,22,8.7,162,21,11,60*77
+01-01 00:09:36.054 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:36.054 D/AT      ( 1070): AT< $GPGSV,2,1,06,22,64,344,36,06,43,243,21,18,42,054,30,03,39,258,28*7E
+01-01 00:09:36.062 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:36.062 D/AT      ( 1070): AT< $GPGSV,2,2,06,19,32,302,41,09,22,065,17*7E
+01-01 00:09:36.078 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:36.078 D/AT      ( 1070): AT< $GPRMC,234327.000,A,3307.054210,N,11718.468518,W,0.797,0.0,141211,,,A*7D
+01-01 00:09:36.085 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:36.085 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,0.797,N,1.477,K,A*01
+01-01 00:09:36.093 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:36.093 D/AT      ( 1070): AT< $GPZDA,234327.000,14,12,2011,,*51
+01-01 00:09:36.109 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:43.523 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:09:43.539 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:09:43.539 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:09:43.539 D/AT      ( 1070): AT< OK
+01-01 00:09:43.539 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:09:43.554 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:09:43.554 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:09:43.554 D/AT      ( 1070): AT< OK
+01-01 00:09:46.070 D/AT      ( 1070): AT< $GPGGA,234337.000,3307.054168,N,11718.468479,W,1,6,1.75,63.345,M,-35.160,M,,*55
+01-01 00:09:46.078 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:46.078 D/AT      ( 1070): AT< $GPGLL,3307.054168,N,11718.468479,W,234337.000,A,A*4E
+01-01 00:09:46.085 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:46.085 D/AT      ( 1070): AT< $GPGSA,A,3,22,06,18,03,19,09,,,,,,,1.98,1.75,0.94*01
+01-01 00:09:46.101 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:46.101 D/AT      ( 1070): AT< $GPGST,234337.000,4.4,22,8.3,162,21,10,59*7B
+01-01 00:09:46.109 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:46.109 D/AT      ( 1070): AT< $GPGSV,2,1,06,22,64,344,35,06,43,243,22,18,42,054,33,03,39,258,30*74
+01-01 00:09:46.117 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:46.117 D/AT      ( 1070): AT< $GPGSV,2,2,06,19,32,302,41,09,22,065,21*7B
+01-01 00:09:46.132 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:46.132 D/AT      ( 1070): AT< $GPRMC,234337.000,A,3307.054168,N,11718.468479,W,0.942,0.0,141211,,,A*70
+01-01 00:09:46.140 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:46.140 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,0.942,N,1.745,K,A*05
+01-01 00:09:46.164 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:46.164 D/AT      ( 1070): AT< $GPZDA,234337.000,14,12,2011,,*50
+01-01 00:09:46.179 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:53.554 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:09:53.570 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:09:53.570 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:09:53.570 D/AT      ( 1070): AT< OK
+01-01 00:09:53.570 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:09:53.585 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:09:53.585 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:09:53.585 D/AT      ( 1070): AT< OK
+01-01 00:09:56.984 D/AT      ( 1070): AT< $GPGGA,234348.000,3307.054168,N,11718.468479,W,1,6,1.75,63.345,M,-35.160,M,,*5D
+01-01 00:09:56.992 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:56.992 D/AT      ( 1070): AT< $GPGLL,3307.054168,N,11718.468479,W,234348.000,A,A*46
+01-01 00:09:56.999 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:56.999 D/AT      ( 1070): AT< $GPGSA,A,3,22,06,18,03,19,09,,,,,,,1.98,1.75,0.94*01
+01-01 00:09:57.015 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:57.015 D/AT      ( 1070): AT< $GPGST,234348.000,4.4,21,8.1,161,20,10,59*70
+01-01 00:09:57.023 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:57.023 D/AT      ( 1070): AT< $GPGSV,2,1,06,22,64,344,35,06,43,242,23,18,42,054,33,03,39,257,32*79
+01-01 00:09:57.031 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:57.031 D/AT      ( 1070): AT< $GPGSV,2,2,06,19,32,302,42,09,22,064,24*7C
+01-01 00:09:57.046 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:57.046 D/AT      ( 1070): AT< $GPRMC,234348.000,A,3307.054168,N,11718.468479,W,0.000,0.0,141211,,,A*77
+01-01 00:09:57.054 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:57.054 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,0.000,N,0.000,K,A*0D
+01-01 00:09:57.070 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:09:57.070 D/AT      ( 1070): AT< $GPZDA,234348.000,14,12,2011,,*58
+01-01 00:09:57.078 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:03.585 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:10:03.601 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:10:03.601 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:10:03.601 D/AT      ( 1070): AT< OK
+01-01 00:10:03.601 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:10:03.617 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:10:03.617 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:10:03.617 D/AT      ( 1070): AT< OK
+01-01 00:10:07.992 D/AT      ( 1070): AT< $GPGGA,234359.000,3307.054368,N,11718.468487,W,1,6,1.75,63.430,M,-35.160,M,,*5B
+01-01 00:10:07.999 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:07.999 D/AT      ( 1070): AT< $GPGLL,3307.054368,N,11718.468487,W,234359.000,A,A*45
+01-01 00:10:08.007 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:08.007 D/AT      ( 1070): AT< $GPGSA,A,3,22,06,18,03,19,09,,,,,,,1.98,1.75,0.94*01
+01-01 00:10:08.023 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:08.023 D/AT      ( 1070): AT< $GPGST,234359.000,4.4,21,8.1,160,20,10,59*71
+01-01 00:10:08.031 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:08.031 D/AT      ( 1070): AT< $GPGSV,2,1,06,22,64,344,34,06,43,242,26,18,42,054,33,03,39,257,30*7F
+01-01 00:10:08.039 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:08.039 D/AT      ( 1070): AT< $GPGSV,2,2,06,19,32,302,42,09,22,064,23*7B
+01-01 00:10:08.054 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:08.054 D/AT      ( 1070): AT< $GPRMC,234359.000,A,3307.054368,N,11718.468487,W,0.723,0.0,141211,,,A*72
+01-01 00:10:08.062 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:08.062 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,0.723,N,1.339,K,A*03
+01-01 00:10:08.070 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:08.070 D/AT      ( 1070): AT< $GPZDA,234359.000,14,12,2011,,*58
+01-01 00:10:08.085 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:13.617 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:10:13.632 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:10:13.632 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:10:13.632 D/AT      ( 1070): AT< OK
+01-01 00:10:13.632 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:10:13.648 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:10:13.648 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:10:13.648 D/AT      ( 1070): AT< OK
+01-01 00:10:19.007 D/AT      ( 1070): AT< $GPGGA,234410.000,3307.054522,N,11718.468448,W,1,6,1.75,63.453,M,-35.160,M,,*5F
+01-01 00:10:19.015 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:19.015 D/AT      ( 1070): AT< $GPGLL,3307.054522,N,11718.468448,W,234410.000,A,A*44
+01-01 00:10:19.023 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:19.023 D/AT      ( 1070): AT< $GPGSA,A,3,22,06,18,03,19,09,,,,,,,1.98,1.75,0.94*01
+01-01 00:10:19.039 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:19.039 D/AT      ( 1070): AT< $GPGST,234410.000,4.5,21,8.0,159,19,10,60*71
+01-01 00:10:19.046 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:19.046 D/AT      ( 1070): AT< $GPGSV,2,1,06,22,64,344,34,06,43,242,26,18,42,054,36,03,39,257,33*79
+01-01 00:10:19.054 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:19.054 D/AT      ( 1070): AT< $GPGSV,2,2,06,19,32,302,42,09,22,064,17*7C
+01-01 00:10:19.070 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:19.070 D/AT      ( 1070): AT< $GPRMC,234410.000,A,3307.054522,N,11718.468448,W,0.000,0.0,141211,,,A*75
+01-01 00:10:19.078 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:19.078 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,0.000,N,0.000,K,A*0D
+01-01 00:10:19.093 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:19.093 D/AT      ( 1070): AT< $GPZDA,234410.000,14,12,2011,,*52
+01-01 00:10:19.101 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:23.648 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:10:23.664 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:10:23.664 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:10:23.664 D/AT      ( 1070): AT< OK
+01-01 00:10:23.664 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:10:23.679 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:10:23.679 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:10:23.679 D/AT      ( 1070): AT< OK
+01-01 00:10:30.000 D/AT      ( 1070): AT< $GPGGA,234421.000,3307.054522,N,11718.468448,W,1,6,1.75,63.453,M,-35.160,M,,*5D
+01-01 00:10:30.007 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:30.007 D/AT      ( 1070): AT< $GPGLL,3307.054522,N,11718.468448,W,234421.000,A,A*46
+01-01 00:10:30.023 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:30.023 D/AT      ( 1070): AT< $GPGSA,A,3,22,06,18,03,19,09,,,,,,,1.98,1.75,0.94*01
+01-01 00:10:30.031 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:30.031 D/AT      ( 1070): AT< $GPGST,234421.000,4.6,21,8.1,160,20,10,60*71
+01-01 00:10:30.046 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:30.046 D/AT      ( 1070): AT< $GPGSV,2,1,06,22,64,344,36,06,43,242,24,18,42,054,36,03,39,257,29*72
+01-01 00:10:30.054 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:30.054 D/AT      ( 1070): AT< $GPGSV,2,2,06,19,32,302,42,09,22,064,20*78
+01-01 00:10:30.070 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:30.070 D/AT      ( 1070): AT< $GPRMC,234421.000,A,3307.054522,N,11718.468448,W,0.000,0.0,141211,,,A*77
+01-01 00:10:30.078 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:30.078 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,0.000,N,0.000,K,A*0D
+01-01 00:10:30.093 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:30.093 D/AT      ( 1070): AT< $GPZDA,234421.000,14,12,2011,,*50
+01-01 00:10:30.101 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:33.679 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:10:33.695 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:10:33.695 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:10:33.695 D/AT      ( 1070): AT< OK
+01-01 00:10:33.695 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:10:33.710 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:10:33.710 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:10:33.710 D/AT      ( 1070): AT< OK
+01-01 00:10:40.062 D/AT      ( 1070): AT< $GPGGA,234431.000,3307.053956,N,11718.469058,W,1,6,1.75,63.258,M,-35.160,M,,*5D
+01-01 00:10:40.070 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:40.070 D/AT      ( 1070): AT< $GPGLL,3307.053956,N,11718.469058,W,234431.000,A,A*4B
+01-01 00:10:40.078 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:40.078 D/AT      ( 1070): AT< $GPGSA,A,3,22,06,18,03,19,09,,,,,,,1.98,1.75,0.94*01
+01-01 00:10:40.093 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:40.093 D/AT      ( 1070): AT< $GPGST,234431.000,4.4,21,8.0,160,20,10,58*78
+01-01 00:10:40.101 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:40.101 D/AT      ( 1070): AT< $GPGSV,2,1,07,14,65,201,,22,64,344,37,06,43,242,26,18,42,054,36*77
+01-01 00:10:40.109 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:40.109 D/AT      ( 1070): AT< $GPGSV,2,2,07,03,39,257,30,19,32,301,40,09,22,064,24*46
+01-01 00:10:40.125 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:40.125 D/AT      ( 1070): AT< $GPRMC,234431.000,A,3307.053956,N,11718.469058,W,1.633,0.0,141211,,,A*7D
+01-01 00:10:40.132 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:40.132 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,1.633,N,3.026,K,A*0D
+01-01 00:10:40.140 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:40.140 D/AT      ( 1070): AT< $GPZDA,234431.000,14,12,2011,,*51
+01-01 00:10:40.156 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:43.710 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:10:43.726 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:10:43.726 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:10:43.726 D/AT      ( 1070): AT< OK
+01-01 00:10:43.726 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:10:43.742 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:10:43.742 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:10:43.742 D/AT      ( 1070): AT< OK
+01-01 00:10:50.976 D/AT      ( 1070): AT< $GPGGA,234442.000,3307.052513,N,11718.469051,W,1,6,1.75,62.875,M,-35.160,M,,*58
+01-01 00:10:50.984 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:50.984 D/AT      ( 1070): AT< $GPGLL,3307.052513,N,11718.469051,W,234442.000,A,A*4A
+01-01 00:10:51.000 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:51.000 D/AT      ( 1070): AT< $GPGSA,A,3,22,06,18,03,19,09,,,,,,,1.98,1.75,0.94*01
+01-01 00:10:51.007 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:51.007 D/AT      ( 1070): AT< $GPGST,234442.000,4.0,21,7.9,160,20,10,58*7E
+01-01 00:10:51.015 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:51.015 D/AT      ( 1070): AT< $GPGSV,2,1,07,14,65,201,,22,64,345,36,06,43,242,27,18,42,054,36*76
+01-01 00:10:51.031 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:51.031 D/AT      ( 1070): AT< $GPGSV,2,2,07,03,39,257,30,19,32,301,40,09,22,064,28*4A
+01-01 00:10:51.039 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:51.039 D/AT      ( 1070): AT< $GPRMC,234442.000,A,3307.052513,N,11718.469051,W,0.000,0.0,141211,,,A*7B
+01-01 00:10:51.046 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:51.046 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,0.000,N,0.000,K,A*0D
+01-01 00:10:51.062 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:51.062 D/AT      ( 1070): AT< $GPZDA,234442.000,14,12,2011,,*55
+01-01 00:10:51.070 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:10:53.742 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:10:53.757 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:10:53.757 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:10:53.757 D/AT      ( 1070): AT< OK
+01-01 00:10:53.757 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:10:53.773 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:10:53.773 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:10:53.773 D/AT      ( 1070): AT< OK
+01-01 00:11:01.039 D/AT      ( 1070): AT< $GPGGA,234452.000,3307.052162,N,11718.469096,W,1,6,1.75,62.927,M,-35.160,M,,*56
+01-01 00:11:01.046 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:11:01.046 D/AT      ( 1070): AT< $GPGLL,3307.052162,N,11718.469096,W,234452.000,A,A*42
+01-01 00:11:01.062 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:11:01.062 D/AT      ( 1070): AT< $GPGSA,A,3,22,06,18,03,19,09,,,,,,,1.98,1.75,0.94*01
+01-01 00:11:01.070 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:11:01.070 D/AT      ( 1070): AT< $GPGST,234452.000,3.8,20,7.8,159,19,10,58*70
+01-01 00:11:01.078 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:11:01.078 D/AT      ( 1070): AT< $GPGSV,2,1,07,14,65,201,,22,64,345,37,06,43,242,26,18,42,054,34*74
+01-01 00:11:01.093 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:11:01.093 D/AT      ( 1070): AT< $GPGSV,2,2,07,03,39,257,31,19,32,301,40,09,22,064,28*4B
+01-01 00:11:01.101 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:11:01.101 D/AT      ( 1070): AT< $GPRMC,234452.000,A,3307.052162,N,11718.469096,W,0.000,0.0,141211,,,A*73
+01-01 00:11:01.117 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:11:01.117 D/AT      ( 1070): AT< $GPVTG,0.0,T,,M,0.000,N,0.000,K,A*0D
+01-01 00:11:01.125 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:11:01.125 D/AT      ( 1070): AT< $GPZDA,234452.000,14,12,2011,,*54
+01-01 00:11:01.140 D/RIL     ( 1070): rilWriteGPS /opt/fusion/fwril-gps.txt result=0 OK
+01-01 00:11:03.773 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:11:03.789 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:11:03.789 D/AT      ( 1070): AT< +CSQ:14,99
+01-01 00:11:03.789 D/AT      ( 1070): AT< OK
+01-01 00:11:03.789 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:11:03.804 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:11:03.804 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:11:03.804 D/AT      ( 1070): AT< OK

@@ -1,0 +1,25 @@
+#!/system/bin/sh
+#
+# N.B. android gingerbread pppd/main.c
+#
+# Originally linkname is used to create named pid files, which is
+# meaningless to android. Here we use it as a suffix of program names,
+# so different users can run their own program by specifying it. For
+# example, "/etc/ppp/ip-up-vpn" will be executed when IPCP is up and
+# linkname is "vpn". Note that "/" is not allowed for security reasons. */
+
+echo "ip-up-ppp set dynamic properties"
+
+# set dynamic properties
+/system/bin/setprop "net.dns1" "$DNS1"
+/system/bin/setprop "net.dns2" "$DNS2"
+
+/system/bin/setprop "net.ppp0.dns1" "$DNS1"
+/system/bin/setprop "net.ppp0.dns2" "$DNS2"
+/system/bin/setprop "net.ppp0.gw"   "$IPREMOTE"
+
+#/system/bin/log -t pppd "ip-up set dns1 $DNS1"
+#/system/bin/log -t pppd "ip-up set dns2 $DNS2"
+#/system/bin/log -t pppd "ip-up set local-ip  $IPLOCAL"
+#/system/bin/log -t pppd "ip-up set remote-ip $IPREMOTE"
+

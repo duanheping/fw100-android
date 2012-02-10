@@ -1,0 +1,24 @@
+Experimental fix for Connection Helper isAvailable=false
+Fusion Wireless
+14 Dec 2012
+
+
+Test:
+Verify this prevents pop up when starting Browser
+and Connection Helper shows isAvailable=true
+when in 3G data call.
+
+
+In frameworks/base/core/java/android/net/MobileDataStateTracker.java
+
+starting at line 168
+
+168            // set this regardless of the apnTypeList.  It's all the same radio/network
+169            // underneath  
+               // PATCH:  logic changed from mNetworkInfo.setIsAvailable(!unavailable)
+170            if (unavailable == false) {
+171            mNetworkInfo.setIsAvailable(false);
+172            } else {
+173           mNetworkInfo.setIsAvailable(true);
+174            }
+

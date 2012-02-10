@@ -1,0 +1,540 @@
+[0G# logcat -v time[0K[0G[16C -b radio
+01-01 00:00:07.335 I/RIL     ( 1070): Opening device /dev/ttyUSB2
+01-01 00:00:07.335 I/RIL     ( 1070): Opening device /dev/ttyUSB0
+01-01 00:00:07.335 D/RIL     ( 1070): rilReadControl /opt/fusion/fwril-control.txt result=-1 Fail
+01-01 00:00:07.335 D/RIL     ( 1070): mainLoop starting at:/dev/ttyUSB2 data:/dev/ttyUSB0
+01-01 00:00:07.343 D/RIL     ( 1070): mainLoop error open devname /dev/ttyUSB2 err=13 Permission denied
+01-01 00:00:12.351 D/RIL     ( 1070): sync_modem:1558 /dev/ttyUSB2 is ready
+01-01 00:00:12.351 D/RIL     ( 1070): mainLoop launching at_open on fd:12 /dev/ttyUSB2
+01-01 00:00:12.351 D/AT      ( 1070): AT> ATE0Q0V1
+01-01 00:00:12.359 D/AT      ( 1070): AT< ATE0Q0V1
+01-01 00:00:12.359 D/AT      ( 1070): AT< OK
+01-01 00:00:12.609 D/AT      ( 1070): AT> ATE0Q0V1
+01-01 00:00:12.617 D/AT      ( 1070): AT< OK
+01-01 00:00:12.617 D/AT      ( 1070): AT> ATS0=0
+01-01 00:00:12.625 D/AT      ( 1070): AT< OK
+01-01 00:00:12.625 D/AT      ( 1070): AT> AT+CMEE=1
+01-01 00:00:12.632 D/AT      ( 1070): AT< OK
+01-01 00:00:12.632 D/AT      ( 1070): AT> AT+CREG=1
+01-01 00:00:12.640 D/AT      ( 1070): AT< OK
+01-01 00:00:12.640 D/AT      ( 1070): AT> AT+VMCCMNC=0
+01-01 00:00:12.648 D/AT      ( 1070): AT< OK
+01-01 00:00:12.648 D/AT      ( 1070): AT> AT+ARSI=1,4
+01-01 00:00:12.664 D/AT      ( 1070): AT< OK
+01-01 00:00:12.664 D/AT      ( 1070): AT> AT+CMGF=0
+01-01 00:00:12.679 D/AT      ( 1070): AT< OK
+01-01 00:00:12.679 D/AT      ( 1070): AT> AT^MEID
+01-01 00:00:12.695 D/AT      ( 1070): AT< ^MEID:0xa10000157f81a9
+01-01 00:00:12.695 D/AT      ( 1070): AT< OK
+01-01 00:00:12.695 D/AT      ( 1070): AT> AT+VMDN?
+01-01 00:00:12.710 D/AT      ( 1070): AT< +VMDN:9132196186
+01-01 00:00:12.710 D/AT      ( 1070): AT< OK
+01-01 00:00:12.710 D/AT      ( 1070): AT> AT^HDRCSQ
+01-01 00:00:12.726 D/AT      ( 1070): AT< ^HDRCSQ:60
+01-01 00:00:12.726 D/AT      ( 1070): AT< OK
+01-01 00:00:12.726 D/AT      ( 1070): AT> AT^SYSINFO
+01-01 00:00:12.742 D/AT      ( 1070): AT< ^SYSINFO:2,255,0,8,240
+01-01 00:00:12.742 D/AT      ( 1070): AT< OK
+01-01 00:00:12.742 D/AT      ( 1070): AT> AT+CSNID?
+01-01 00:00:12.757 D/AT      ( 1070): AT< +CSNID:4145,7
+01-01 00:00:12.757 D/AT      ( 1070): AT< OK
+01-01 00:00:12.757 D/AT      ( 1070): AT> AT^GPSLOC=0
+01-01 00:00:12.773 D/AT      ( 1070): AT< OK
+01-01 00:00:12.773 D/AT      ( 1070): AT> AT^GPSMODE=1
+01-01 00:00:12.789 D/AT      ( 1070): AT< OK
+01-01 00:00:12.789 D/AT      ( 1070): AT> AT^GPSQOS=1,255
+01-01 00:00:12.804 D/AT      ( 1070): AT< OK
+01-01 00:00:12.804 D/AT      ( 1070): AT> AT^GPSLOC=1,10
+01-01 00:00:12.820 D/AT      ( 1070): AT< OK
+01-01 00:00:12.820 D/RIL     ( 1070): isRadioOn
+01-01 00:00:12.820 D/AT      ( 1070): AT> AT+VPON?
+01-01 00:00:12.835 D/AT      ( 1070): AT< +VPON:0,1
+01-01 00:00:12.835 D/AT      ( 1070): AT< OK
+01-01 00:00:12.835 D/RIL     ( 1070): isRadioOn isRadioOn ps_en=1 was isnow=0
+01-01 00:00:22.351 D/AT      ( 1070): AT> AT^MEID
+01-01 00:00:22.367 D/AT      ( 1070): AT< ^MEID:0xa10000157f81a9
+01-01 00:00:22.367 D/AT      ( 1070): AT< OK
+01-01 00:00:22.367 D/AT      ( 1070): AT> AT+VMDN?
+01-01 00:00:22.382 D/AT      ( 1070): AT< +VMDN:9132196186
+01-01 00:00:22.382 D/AT      ( 1070): AT< OK
+01-01 00:00:22.382 D/RIL     ( 1070): activateHelper auto=1 retry=6 active=1 Module Is Activated
+01-01 00:00:22.390 D/RIL     ( 1070): rilWriteStatus /opt/fusion/fwril-status.txt result=0 OK
+01-01 00:00:26.937 I/PHONE   ( 1273): Network Mode set to 0
+01-01 00:00:26.968 I/PHONE   ( 1273): Cdma Subscription set to 1
+01-01 00:00:27.093 I/PHONE   ( 1273): Creating GSMPhone
+01-01 00:00:27.093 I/RILC    ( 1070): libril: new connection
+01-01 00:00:27.093 I/RILC    ( 1070): RIL Daemon version: Fusion Wireless RIL 1.0
+01-01 00:00:27.101 I/RILJ    ( 1273): Connected to 'rild' socket
+01-01 00:00:27.101 D/RILB    ( 1273): Notifying: radio available
+01-01 00:00:27.101 D/RILJ    ( 1273): [0000]> SCREEN_STATE: true
+01-01 00:00:27.125 D/RILJ    ( 1273): [UNSL]< UNSOL_RESPONSE_RADIO_STATE_CHANGED RADIO_OFF
+01-01 00:00:27.242 E/RILJ    ( 1273): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:00:27.250 D/RIL     ( 1070): onRequest: state=0 token=0xe588 req=61 RIL_REQUEST_SCREEN_STATE
+01-01 00:00:27.250 D/RIL     ( 1070): requestScreenState on
+01-01 00:00:27.250 D/AT      ( 1070): AT> AT+ARSI=1,4
+01-01 00:00:27.265 D/AT      ( 1070): AT< OK
+01-01 00:00:27.265 D/AT      ( 1070): AT> AT+CREG=1
+01-01 00:00:27.328 D/AT      ( 1070): AT< OK
+01-01 00:00:27.328 D/AT      ( 1070): AT> AT+VMCCMNC=1
+01-01 00:00:27.375 D/AT      ( 1070): AT< OK
+01-01 00:00:27.375 D/AT      ( 1070): AT> AT+VSER=1
+01-01 00:00:27.429 D/AT      ( 1070): AT< OK
+01-01 00:00:27.429 D/RILJ    ( 1273): [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED
+01-01 00:00:27.429 D/RILJ    ( 1273): [0000]< SCREEN_STATE 
+01-01 00:00:27.867 D/PHONE   ( 1273): mDoesRilSendMultipleCallRing=true
+01-01 00:00:27.867 D/PHONE   ( 1273): mCallRingDelay=3000
+01-01 00:00:28.351 W/GSM     ( 1273): Can't open /system/etc/voicemail-conf.xml
+01-01 00:00:28.351 W/GSM     ( 1273): Can't open /system/etc/spn-conf.xml
+01-01 00:00:28.468 D/GSM     ( 1273): [GsmDataConnection-1] DataConnection constructor E
+01-01 00:00:28.468 D/GSM     ( 1273): [GsmDataConnection-1] clearSettings
+01-01 00:00:28.468 D/GSM     ( 1273): [GsmDataConnection-1] DataConnection constructor X
+01-01 00:00:28.468 D/GSM     ( 1273): [GsmDataConnection-1] Made GsmDataConnection-1
+01-01 00:00:28.570 D/RILJ    ( 1273): [0001]> RIL_REQUEST_REPORT_STK_SERVICE_IS_RUNNING
+01-01 00:00:28.585 E/RILJ    ( 1273): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:00:28.585 D/RIL     ( 1070): onRequest: state=0 token=0xe4c0 req=103 (null)
+01-01 00:00:28.585 D/RILJ    ( 1273): [0001]< RIL_REQUEST_REPORT_STK_SERVICE_IS_RUNNING error: com.android.internal.telephony.CommandException: RADIO_NOT_AVAILABLE
+01-01 00:00:28.585 D/STK     ( 1273): StkService: StkService: is running
+01-01 00:00:28.585 D/STK     ( 1273): StkService: NEW sInstance
+01-01 00:00:28.953 D/RILJ    ( 1273): [0002]> RADIO_POWER
+01-01 00:00:28.960 E/RILJ    ( 1273): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:00:28.968 D/RIL     ( 1070): onRequest: state=0 token=0xe4c8 req=23 RIL_REQUEST_RADIO_POWER
+01-01 00:00:28.968 D/AT      ( 1070): AT> AT+CPON
+01-01 00:00:28.984 D/AT      ( 1070): AT< OK
+01-01 00:00:28.984 D/RILB    ( 1273): Notifying: Radio On
+01-01 00:00:28.984 D/RILJ    ( 1273): [UNSL]< UNSOL_RESPONSE_RADIO_STATE_CHANGED SIM_NOT_READY
+01-01 00:00:28.984 D/RILJ    ( 1273): [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED
+01-01 00:00:28.984 D/RILJ    ( 1273): [0002]< RADIO_POWER 
+01-01 00:00:29.046 D/GSM     ( 1273): [GsmDataConnection-1] DcInactiveState: msg.what=EVENT_RESET, ignore we're already reset
+01-01 00:00:29.046 D/GSM     ( 1273): [GsmDataConnection-1] NotifyDisconnectCompleted
+01-01 00:00:29.062 D/GSM     ( 1273): GSMPhone.java isDataConnectivityPossible() skip check SIM ready
+01-01 00:00:29.070 D/GSM     ( 1273): [GsmDataConnection-1] clearSettings
+01-01 00:00:29.085 D/GSM     ( 1273): GSMPhone.java isDataConnectivityPossible() skip check SIM ready
+01-01 00:00:29.140 D/GSM     ( 1273): [IccCard] Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+01-01 00:00:29.156 D/RILJ    ( 1273): [0003]> BASEBAND_VERSION
+01-01 00:00:29.164 E/RILJ    ( 1273): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:00:29.164 D/RIL     ( 1070): onRequest: state=2 token=0xe4b0 req=51 RIL_REQUEST_BASEBAND_VERSION
+01-01 00:00:29.164 D/AT      ( 1070): AT> AT+CGMM
+01-01 00:00:29.164 D/RILJ    ( 1273): [0004]> GET_IMEI
+01-01 00:00:29.171 D/RILJ    ( 1273): NOTE: mReqWaiting is NOT 0 but1 at TIMEOUT, reset! There still msg waitng for response
+01-01 00:00:29.171 D/RILJ    ( 1273): WAKE_LOCK_TIMEOUT  mRequestList=1
+01-01 00:00:29.171 D/RILJ    ( 1273): 0: [3] BASEBAND_VERSION
+01-01 00:00:29.171 E/RILJ    ( 1273): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:00:29.171 D/RILJ    ( 1273): [0005]> GET_IMEISV
+01-01 00:00:29.179 D/AT      ( 1070): AT< +CGMM:FW 2770p
+01-01 00:00:29.179 D/AT      ( 1070): AT< OK
+01-01 00:00:29.179 D/AT      ( 1070): AT> AT+GMR
+01-01 00:00:29.179 D/RILJ    ( 1273): NOTE: mReqWaiting is NOT 0 but1 at TIMEOUT, reset! There still msg waitng for response
+01-01 00:00:29.179 D/RILJ    ( 1273): WAKE_LOCK_TIMEOUT  mRequestList=2
+01-01 00:00:29.179 D/RILJ    ( 1273): 0: [3] BASEBAND_VERSION
+01-01 00:00:29.179 D/RILJ    ( 1273): 1: [4] GET_IMEI
+01-01 00:00:29.179 E/RILJ    ( 1273): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:00:29.187 D/AT      ( 1070): AT< +GMR: "8.5.16"
+01-01 00:00:29.187 D/AT      ( 1070): AT< OK
+01-01 00:00:29.187 D/AT      ( 1070): AT> AT^HWVER
+01-01 00:00:29.203 D/AT      ( 1070): AT< ^HWVER:1.2
+01-01 00:00:29.203 D/AT      ( 1070): AT< OK
+01-01 00:00:29.203 D/RIL     ( 1070): response = FW 2770p sw:"8.5.16" hw:1.2
+01-01 00:00:29.203 D/RIL     ( 1070): onRequest: state=2 token=0xe4b0 req=38 RIL_REQUEST_GET_IMEI
+01-01 00:00:29.203 D/AT      ( 1070): AT> AT+VGMUID?
+01-01 00:00:29.203 D/RILJ    ( 1273): [0003]< BASEBAND_VERSION FW 2770p sw:"8.5.16" hw:1.2
+01-01 00:00:29.218 D/AT      ( 1070): AT< +VGMUID:2,0x00000000,N/A,N/A,0x80cdbb17,0x80cdbb17,0xa10000157f81a9
+01-01 00:00:29.218 D/AT      ( 1070): AT< OK
+01-01 00:00:29.218 D/RIL     ( 1070): responseStr = a10000157f81a9
+01-01 00:00:29.218 D/RIL     ( 1070): onRequest: state=2 token=0xe4b0 req=39 (null)
+01-01 00:00:29.218 D/RIL     ( 1070): onRequest request not supported, reported radio not available
+01-01 00:00:29.218 D/RILJ    ( 1273): [0004]< GET_IMEI 
+01-01 00:00:29.218 D/RILJ    ( 1273): [0005]< GET_IMEISV error: com.android.internal.telephony.CommandException: RADIO_NOT_AVAILABLE
+01-01 00:00:29.265 D/RILJ    ( 1273): [0006]> OPERATOR
+01-01 00:00:29.281 E/RILJ    ( 1273): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:00:29.281 D/RIL     ( 1070): onRequest: state=2 token=0xe4b0 req=22 RIL_REQUEST_OPERATOR
+01-01 00:00:29.281 D/AT      ( 1070): AT> AT+VMCCMNC?
+01-01 00:00:29.289 D/RILJ    ( 1273): [0007]> GPRS_REGISTRATION_STATE
+01-01 00:00:29.289 D/RILJ    ( 1273): NOTE: mReqWaiting is NOT 0 but1 at TIMEOUT, reset! There still msg waitng for response
+01-01 00:00:29.289 D/RILJ    ( 1273): WAKE_LOCK_TIMEOUT  mRequestList=1
+01-01 00:00:29.289 D/RILJ    ( 1273): 0: [6] OPERATOR
+01-01 00:00:29.289 E/RILJ    ( 1273): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:00:29.296 D/AT      ( 1070): AT< +VMCCMNC:1,310,00
+01-01 00:00:29.296 D/AT      ( 1070): AT< OK
+01-01 00:00:29.296 D/AT      ( 1070): AT> AT$QCMIPGETP=0
+01-01 00:00:29.296 D/RILJ    ( 1273): [0008]> REGISTRATION_STATE
+01-01 00:00:29.296 D/RILJ    ( 1273): NOTE: mReqWaiting is NOT 0 but1 at TIMEOUT, reset! There still msg waitng for response
+01-01 00:00:29.296 D/RILJ    ( 1273): WAKE_LOCK_TIMEOUT  mRequestList=2
+01-01 00:00:29.296 D/RILJ    ( 1273): 0: [6] OPERATOR
+01-01 00:00:29.296 D/RILJ    ( 1273): 1: [7] GPRS_REGISTRATION_STATE
+01-01 00:00:29.296 E/RILJ    ( 1273): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:00:29.296 D/RILJ    ( 1273): [0009]> QUERY_NETWORK_SELECTION_MODE
+01-01 00:00:29.304 D/RILJ    ( 1273): NOTE: mReqWaiting is NOT 0 but1 at TIMEOUT, reset! There still msg waitng for response
+01-01 00:00:29.304 D/RILJ    ( 1273): WAKE_LOCK_TIMEOUT  mRequestList=3
+01-01 00:00:29.304 D/RILJ    ( 1273): 0: [6] OPERATOR
+01-01 00:00:29.304 D/RILJ    ( 1273): 1: [7] GPRS_REGISTRATION_STATE
+01-01 00:00:29.304 D/RILJ    ( 1273): 2: [8] REGISTRATION_STATE
+01-01 00:00:29.312 D/AT      ( 1070): AT< 0,1,"0.0.0.0","68.28.15.12","68.28.31.12","A10000157F81A9@hcm.sprintpcs.com","A10000157F81A9@hcm.sprintpcs.com",1,1,1234,1,1234
+01-01 00:00:29.312 D/AT      ( 1070): AT< OK
+01-01 00:00:29.312 E/RILJ    ( 1273): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:00:29.312 D/RILJ    ( 1273): [0010]> GET_CURRENT_CALLS
+01-01 00:00:29.320 D/RILJ    ( 1273): [0011]> OPERATOR
+01-01 00:00:29.328 D/RILJ    ( 1273): NOTE: mReqWaiting is NOT 0 but1 at TIMEOUT, reset! There still msg waitng for response
+01-01 00:00:29.328 D/RILJ    ( 1273): WAKE_LOCK_TIMEOUT  mRequestList=4
+01-01 00:00:29.328 D/RILJ    ( 1273): 0: [6] OPERATOR
+01-01 00:00:29.328 D/RILJ    ( 1273): 1: [7] GPRS_REGISTRATION_STATE
+01-01 00:00:29.328 D/RILJ    ( 1273): 2: [8] REGISTRATION_STATE
+01-01 00:00:29.328 D/RILJ    ( 1273): 3: [9] QUERY_NETWORK_SELECTION_MODE
+01-01 00:00:29.328 E/RILJ    ( 1273): ERROR: mReqPending is NOT 0 but2 at TIMEOUT, reset!
+01-01 00:00:29.335 D/RILJ    ( 1273): [0012]> GPRS_REGISTRATION_STATE
+01-01 00:00:29.335 D/RILJ    ( 1273): [0013]> REGISTRATION_STATE
+01-01 00:00:29.351 D/RILJ    ( 1273): NOTE: mReqWaiting is NOT 0 but2 at TIMEOUT, reset! There still msg waitng for response
+01-01 00:00:29.351 D/RILJ    ( 1273): WAKE_LOCK_TIMEOUT  mRequestList=6
+01-01 00:00:29.351 D/RILJ    ( 1273): 0: [6] OPERATOR
+01-01 00:00:29.351 D/RILJ    ( 1273): 1: [7] GPRS_REGISTRATION_STATE
+01-01 00:00:29.351 D/RILJ    ( 1273): 2: [8] REGISTRATION_STATE
+01-01 00:00:29.351 D/RILJ    ( 1273): 3: [9] QUERY_NETWORK_SELECTION_MODE
+01-01 00:00:29.351 D/RILJ    ( 1273): 4: [10] GET_CURRENT_CALLS
+01-01 00:00:29.351 D/RILJ    ( 1273): 5: [11] OPERATOR
+01-01 00:00:29.351 E/RILJ    ( 1273): ERROR: mReqPending is NOT 0 but2 at TIMEOUT, reset!
+01-01 00:00:29.351 D/RILJ    ( 1273): [0014]> QUERY_NETWORK_SELECTION_MODE
+01-01 00:00:29.375 D/RILJ    ( 1273): NOTE: mReqWaiting is NOT 0 but2 at TIMEOUT, reset! There still msg waitng for response
+01-01 00:00:29.375 D/RILJ    ( 1273): WAKE_LOCK_TIMEOUT  mRequestList=8
+01-01 00:00:29.375 D/RILJ    ( 1273): 0: [6] OPERATOR
+01-01 00:00:29.375 D/RILJ    ( 1273): 1: [7] GPRS_REGISTRATION_STATE
+01-01 00:00:29.375 D/RILJ    ( 1273): 2: [8] REGISTRATION_STATE
+01-01 00:00:29.375 D/RILJ    ( 1273): 3: [9] QUERY_NETWORK_SELECTION_MODE
+01-01 00:00:29.375 D/RILJ    ( 1273): 4: [10] GET_CURRENT_CALLS
+01-01 00:00:29.375 D/RILJ    ( 1273): 5: [11] OPERATOR
+01-01 00:00:29.375 D/RILJ    ( 1273): 6: [12] GPRS_REGISTRATION_STATE
+01-01 00:00:29.375 D/RILJ    ( 1273): 7: [13] REGISTRATION_STATE
+01-01 00:00:29.375 E/RILJ    ( 1273): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:00:29.406 D/RIL     ( 1070): rilWriteStatus /opt/fusion/fwril-status.txt result=0 OK
+01-01 00:00:29.406 D/RIL     ( 1070): requestOperator: display_optname = 0
+01-01 00:00:29.406 D/RIL     ( 1070): onRequest: state=2 token=0xe4b0 req=21 RIL_REQUEST_GPRS_REGISTRATION_STATE
+01-01 00:00:29.406 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:00:29.406 D/RILJ    ( 1273): [0006]< OPERATOR {Sprint PCS, SPCS, 310120}
+01-01 00:00:29.406 D/GSM     ( 1273): Baseband version: FW 2770p sw:"8.5.16" hw:1.2
+01-01 00:00:29.421 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:00:29.421 D/AT      ( 1070): AT< OK
+01-01 00:00:29.421 D/AT      ( 1070): AT> AT^SYSINFO
+01-01 00:00:29.437 D/AT      ( 1070): AT< ^SYSINFO:2,255,0,8,240
+01-01 00:00:29.437 D/AT      ( 1070): AT< OK
+01-01 00:00:29.437 D/AT      ( 1070): AT> AT+CSNID?
+01-01 00:00:29.453 D/AT      ( 1070): AT< +CSNID:4145,7
+01-01 00:00:29.453 D/AT      ( 1070): AT< OK
+01-01 00:00:29.453 D/AT      ( 1070): AT> AT+VROM?
+01-01 00:00:29.460 D/AT      ( 1070): AT< +VROM:0,1
+01-01 00:00:29.460 D/AT      ( 1070): AT< OK
+01-01 00:00:29.460 D/RIL     ( 1070): onRequest: state=2 token=0xe4b0 req=20 RIL_REQUEST_REGISTRATION_STATE
+01-01 00:00:29.460 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:00:29.460 D/RILJ    ( 1273): [0007]< GPRS_REGISTRATION_STATE {1, null, null, 3, 0, 0, 0, 0, 4145, 7, 1, 1, 1, 0, null}
+01-01 00:00:29.476 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:00:29.476 D/AT      ( 1070): AT< OK
+01-01 00:00:29.476 D/AT      ( 1070): AT> AT^SYSINFO
+01-01 00:00:29.492 D/AT      ( 1070): AT< ^SYSINFO:2,255,0,8,240
+01-01 00:00:29.492 D/AT      ( 1070): AT< OK
+01-01 00:00:29.492 D/AT      ( 1070): AT> AT+CSNID?
+01-01 00:00:29.507 D/AT      ( 1070): AT< +CSNID:4145,7
+01-01 00:00:29.507 D/AT      ( 1070): AT< OK
+01-01 00:00:29.507 D/AT      ( 1070): AT> AT+VROM?
+01-01 00:00:29.523 D/AT      ( 1070): AT< +VROM:0,1
+01-01 00:00:29.523 D/AT      ( 1070): AT< OK
+01-01 00:00:29.523 D/RIL     ( 1070): onRequest: state=2 token=0xe4b0 req=45 RIL_REQUEST_QUERY_NETWORK_SELECTION_MODE
+01-01 00:00:29.523 D/AT      ( 1070): AT> AT+COPS?
+01-01 00:00:29.523 D/RILJ    ( 1273): [0008]< REGISTRATION_STATE {1, null, null, 3, 0, 0, 0, 0, 4145, 7, 1, 1, 1, 0, null}
+01-01 00:00:29.539 D/AT      ( 1070): AT< +COPS:2
+01-01 00:00:29.539 D/AT      ( 1070): AT< OK
+01-01 00:00:29.539 D/RIL     ( 1070): onRequest: state=2 token=0xe4b0 req=9 RIL_REQUEST_GET_CURRENT_CALLS
+01-01 00:00:29.539 D/AT      ( 1070): AT> AT+CLCC
+01-01 00:00:29.539 D/RILJ    ( 1273): [0009]< QUERY_NETWORK_SELECTION_MODE {1}
+01-01 00:00:29.546 D/AT      ( 1070): AT< +CLCC:1,0,0,1,0,"#777",129,""
+01-01 00:00:29.546 D/AT      ( 1070): AT< OK
+01-01 00:00:29.546 E/RIL     ( 1070): Data call line, filte
+01-01 00:00:29.546 E/RIL     ( 1070): invalid CLCC line
+01-01 00:00:29.546 D/RIL     ( 1070): onRequest: state=2 token=0xe4b0 req=22 RIL_REQUEST_OPERATOR
+01-01 00:00:29.546 D/AT      ( 1070): AT> AT+VMCCMNC?
+01-01 00:00:29.546 D/RILJ    ( 1273): [0010]< GET_CURRENT_CALLS  
+01-01 00:00:29.562 D/AT      ( 1070): AT< +VMCCMNC:1,310,00
+01-01 00:00:29.562 D/AT      ( 1070): AT< OK
+01-01 00:00:29.562 D/AT      ( 1070): AT> AT$QCMIPGETP=0
+01-01 00:00:29.578 D/AT      ( 1070): AT< 0,1,"0.0.0.0","68.28.15.12","68.28.31.12","A10000157F81A9@hcm.sprintpcs.com","A10000157F81A9@hcm.sprintpcs.com",1,1,1234,1,1234
+01-01 00:00:29.578 D/AT      ( 1070): AT< OK
+01-01 00:00:29.953 D/RIL     ( 1070): rilWriteStatus /opt/fusion/fwril-status.txt result=0 OK
+01-01 00:00:29.953 D/RIL     ( 1070): requestOperator: display_optname = 0
+01-01 00:00:29.953 D/RIL     ( 1070): onRequest: state=2 token=0xe4b0 req=21 RIL_REQUEST_GPRS_REGISTRATION_STATE
+01-01 00:00:29.953 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:00:29.953 D/RILJ    ( 1273): [0011]< OPERATOR {Sprint PCS, SPCS, 310120}
+01-01 00:00:29.968 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:00:29.968 D/AT      ( 1070): AT< OK
+01-01 00:00:29.968 D/AT      ( 1070): AT> AT^SYSINFO
+01-01 00:00:29.984 D/AT      ( 1070): AT< ^SYSINFO:2,255,0,8,240
+01-01 00:00:29.984 D/AT      ( 1070): AT< OK
+01-01 00:00:29.984 D/AT      ( 1070): AT> AT+CSNID?
+01-01 00:00:30.000 D/AT      ( 1070): AT< +CSNID:4145,7
+01-01 00:00:30.000 D/AT      ( 1070): AT< OK
+01-01 00:00:30.000 D/AT      ( 1070): AT> AT+VROM?
+01-01 00:00:30.007 D/AT      ( 1070): AT< +VROM:0,1
+01-01 00:00:30.007 D/AT      ( 1070): AT< OK
+01-01 00:00:30.007 D/RIL     ( 1070): onRequest: state=2 token=0xe4b0 req=20 RIL_REQUEST_REGISTRATION_STATE
+01-01 00:00:30.007 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:00:30.007 D/RILJ    ( 1273): [0012]< GPRS_REGISTRATION_STATE {1, null, null, 3, 0, 0, 0, 0, 4145, 7, 1, 1, 1, 0, null}
+01-01 00:00:30.023 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:00:30.023 D/AT      ( 1070): AT< OK
+01-01 00:00:30.023 D/AT      ( 1070): AT> AT^SYSINFO
+01-01 00:00:30.039 D/AT      ( 1070): AT< ^SYSINFO:2,255,0,8,240
+01-01 00:00:30.039 D/AT      ( 1070): AT< OK
+01-01 00:00:30.039 D/AT      ( 1070): AT> AT+CSNID?
+01-01 00:00:30.054 D/AT      ( 1070): AT< +CSNID:4145,7
+01-01 00:00:30.054 D/AT      ( 1070): AT< OK
+01-01 00:00:30.054 D/AT      ( 1070): AT> AT+VROM?
+01-01 00:00:30.062 D/AT      ( 1070): AT< +VROM:0,1
+01-01 00:00:30.062 D/AT      ( 1070): AT< OK
+01-01 00:00:30.062 D/RIL     ( 1070): onRequest: state=2 token=0xe4b0 req=45 RIL_REQUEST_QUERY_NETWORK_SELECTION_MODE
+01-01 00:00:30.062 D/AT      ( 1070): AT> AT+COPS?
+01-01 00:00:30.062 D/RILJ    ( 1273): [0013]< REGISTRATION_STATE {1, null, null, 3, 0, 0, 0, 0, 4145, 7, 1, 1, 1, 0, null}
+01-01 00:00:30.078 D/AT      ( 1070): AT< +COPS:2
+01-01 00:00:30.078 D/AT      ( 1070): AT< OK
+01-01 00:00:30.078 D/RILJ    ( 1273): [0014]< QUERY_NETWORK_SELECTION_MODE {1}
+01-01 00:00:30.156 D/GSM     ( 1273): GSMPhone.java isDataConnectivityPossible() skip check SIM ready
+01-01 00:00:30.648 D/GSM     ( 1273): [GsmDataConnection-1] DcInactiveState msg.what=EVENT_CONNECT
+01-01 00:00:30.648 D/GSM     ( 1273): [GsmDataConnection-1] Connecting to carrier: 'Sprint' APN: 'cinet.spcs' proxy: 'null' port: 'null
+01-01 00:00:30.648 D/RILJ    ( 1273): [0015]> SETUP_DATA_CALL 1 0 cinet.spcs * * 0 null
+01-01 00:00:30.648 E/RILJ    ( 1273): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:00:30.648 D/RIL     ( 1070): onRequest: state=2 token=0xe4b0 req=27 RIL_REQUEST_SETUP_DATA_CALL
+01-01 00:00:30.656 D/GSM     ( 1273): GSMPhone.java isDataConnectivityPossible() skip check SIM ready
+01-01 00:00:31.093 D/RIL     ( 1070): requestSetupDataCallEVDO started /system/bin/pppd call ttyUSB0
+01-01 00:00:31.726 D/AT      ( 1070): AT< NO CARRIER
+01-01 00:00:31.726 D/RIL     ( 1070): onUnsolicited:1438 bypassed CALL_STATE_CHANGED
+01-01 00:00:32.390 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:00:32.406 D/AT      ( 1070): AT< +CSQ:23,99
+01-01 00:00:32.406 D/AT      ( 1070): AT< OK
+01-01 00:00:32.406 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:00:32.421 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:00:32.421 D/AT      ( 1070): AT< OK
+01-01 00:00:32.421 D/RIL     ( 1070): rilWriteGPSTty:140 open ptmx rc=0 open fd=19 name=/dev/pts/1
+01-01 00:00:32.429 D/RILJ    ( 1273): [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED
+01-01 00:00:32.429 D/RILJ    ( 1273): [0016]> OPERATOR
+01-01 00:00:32.429 D/RILJ    ( 1273): NOTE: mReqWaiting is NOT 0 but1 at TIMEOUT, reset! There still msg waitng for response
+01-01 00:00:32.429 D/RILJ    ( 1273): WAKE_LOCK_TIMEOUT  mRequestList=1
+01-01 00:00:32.429 D/RILJ    ( 1273): 0: [15] SETUP_DATA_CALL
+01-01 00:00:32.429 E/RILJ    ( 1273): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:00:32.429 D/RILJ    ( 1273): [0017]> GPRS_REGISTRATION_STATE
+01-01 00:00:32.437 D/RILJ    ( 1273): [0018]> REGISTRATION_STATE
+01-01 00:00:32.437 D/RILJ    ( 1273): NOTE: mReqWaiting is NOT 0 but1 at TIMEOUT, reset! There still msg waitng for response
+01-01 00:00:32.437 D/RILJ    ( 1273): WAKE_LOCK_TIMEOUT  mRequestList=2
+01-01 00:00:32.437 D/RILJ    ( 1273): 0: [15] SETUP_DATA_CALL
+01-01 00:00:32.437 D/RILJ    ( 1273): 1: [16] OPERATOR
+01-01 00:00:32.437 E/RILJ    ( 1273): ERROR: mReqPending is NOT 0 but2 at TIMEOUT, reset!
+01-01 00:00:32.437 D/RILJ    ( 1273): [0019]> QUERY_NETWORK_SELECTION_MODE
+01-01 00:00:32.445 D/RILJ    ( 1273): NOTE: mReqWaiting is NOT 0 but2 at TIMEOUT, reset! There still msg waitng for response
+01-01 00:00:32.445 D/RILJ    ( 1273): WAKE_LOCK_TIMEOUT  mRequestList=4
+01-01 00:00:32.445 D/RILJ    ( 1273): 0: [15] SETUP_DATA_CALL
+01-01 00:00:32.445 D/RILJ    ( 1273): 1: [16] OPERATOR
+01-01 00:00:32.445 D/RILJ    ( 1273): 2: [17] GPRS_REGISTRATION_STATE
+01-01 00:00:32.445 D/RILJ    ( 1273): 3: [18] REGISTRATION_STATE
+01-01 00:00:40.695 D/RILJ    ( 1273): [0020]> SCREEN_STATE: true
+01-01 00:00:40.695 D/RILJ    ( 1273): NOTE: mReqWaiting is NOT 0 but1 at TIMEOUT, reset! There still msg waitng for response
+01-01 00:00:40.695 D/RILJ    ( 1273): WAKE_LOCK_TIMEOUT  mRequestList=5
+01-01 00:00:40.695 D/RILJ    ( 1273): 0: [15] SETUP_DATA_CALL
+01-01 00:00:40.695 D/RILJ    ( 1273): 1: [16] OPERATOR
+01-01 00:00:40.695 D/RILJ    ( 1273): 2: [17] GPRS_REGISTRATION_STATE
+01-01 00:00:40.695 D/RILJ    ( 1273): 3: [18] REGISTRATION_STATE
+01-01 00:00:40.695 D/RILJ    ( 1273): 4: [19] QUERY_NETWORK_SELECTION_MODE
+01-01 00:00:40.695 E/RILJ    ( 1273): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:00:42.429 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:00:42.453 D/AT      ( 1070): AT< +CSQ:23,99
+01-01 00:00:42.453 D/AT      ( 1070): AT< OK
+01-01 00:00:42.453 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:00:42.468 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:00:42.468 D/AT      ( 1070): AT< OK
+01-01 00:00:52.468 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:00:52.523 D/AT      ( 1070): AT< +CSQ:24,99
+01-01 00:00:52.523 D/AT      ( 1070): AT< OK
+01-01 00:00:52.523 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:00:52.578 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:00:52.578 D/AT      ( 1070): AT< OK
+01-01 00:01:01.351 D/RILJ    ( 1273): [0015]< SETUP_DATA_CALL error: com.android.internal.telephony.CommandException: GENERIC_FAILURE
+01-01 00:01:01.359 D/GSM     ( 1273): [GsmDataConnection-1] DcActivatingState msg.what=EVENT_SETUP_DATA_CONNECTION_DONE
+01-01 00:01:01.359 D/GSM     ( 1273): [GsmDataConnection-1] DataConnection Init failed com.android.internal.telephony.CommandException: GENERIC_FAILURE
+01-01 00:01:01.359 D/GSM     ( 1273): [GsmDataConnection-1] DataConnection setup result='Other error' on cid=-1
+01-01 00:01:01.359 D/RILJ    ( 1273): [0021]> LAST_DATA_CALL_FAIL_CAUSE
+01-01 00:01:01.359 E/RILJ    ( 1273): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:01:01.359 D/RIL     ( 1070): onRequest: state=2 token=0xe4b0 req=22 RIL_REQUEST_OPERATOR
+01-01 00:01:01.359 D/AT      ( 1070): AT> AT+VMCCMNC?
+01-01 00:01:01.374 D/AT      ( 1070): AT< +VMCCMNC:1,310,00
+01-01 00:01:01.374 D/AT      ( 1070): AT< OK
+01-01 00:01:01.374 D/AT      ( 1070): AT> AT$QCMIPGETP=0
+01-01 00:01:01.390 D/AT      ( 1070): AT< 0,1,"0.0.0.0","68.28.15.12","68.28.31.12","A10000157F81A9@hcm.sprintpcs.com","A10000157F81A9@hcm.sprintpcs.com",1,1,1234,1,1234
+01-01 00:01:01.390 D/AT      ( 1070): AT< OK
+01-01 00:01:01.398 D/RIL     ( 1070): rilWriteStatus /opt/fusion/fwril-status.txt result=0 OK
+01-01 00:01:01.398 D/RIL     ( 1070): requestOperator: display_optname = 0
+01-01 00:01:01.398 D/RIL     ( 1070): onRequest: state=2 token=0xe4b0 req=21 RIL_REQUEST_GPRS_REGISTRATION_STATE
+01-01 00:01:01.398 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:01:01.398 D/RILJ    ( 1273): [0016]< OPERATOR {Sprint PCS, SPCS, 310120}
+01-01 00:01:01.414 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:01:01.414 D/AT      ( 1070): AT< OK
+01-01 00:01:01.414 D/AT      ( 1070): AT> AT^SYSINFO
+01-01 00:01:01.429 D/AT      ( 1070): AT< ^SYSINFO:2,255,0,8,240
+01-01 00:01:01.429 D/AT      ( 1070): AT< OK
+01-01 00:01:01.429 D/AT      ( 1070): AT> AT+CSNID?
+01-01 00:01:01.445 D/AT      ( 1070): AT< +CSNID:4145,7
+01-01 00:01:01.445 D/AT      ( 1070): AT< OK
+01-01 00:01:01.445 D/AT      ( 1070): AT> AT+VROM?
+01-01 00:01:01.460 D/AT      ( 1070): AT< +VROM:0,1
+01-01 00:01:01.460 D/AT      ( 1070): AT< OK
+01-01 00:01:01.460 D/RIL     ( 1070): onRequest: state=2 token=0xe4b0 req=20 RIL_REQUEST_REGISTRATION_STATE
+01-01 00:01:01.460 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:01:01.460 D/RILJ    ( 1273): [0017]< GPRS_REGISTRATION_STATE {1, null, null, 3, 0, 0, 0, 0, 4145, 7, 1, 1, 1, 0, null}
+01-01 00:01:01.476 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:01:01.476 D/AT      ( 1070): AT< OK
+01-01 00:01:01.476 D/AT      ( 1070): AT> AT^SYSINFO
+01-01 00:01:01.492 D/AT      ( 1070): AT< ^SYSINFO:2,255,0,8,240
+01-01 00:01:01.492 D/AT      ( 1070): AT< OK
+01-01 00:01:01.492 D/AT      ( 1070): AT> AT+CSNID?
+01-01 00:01:01.507 D/AT      ( 1070): AT< +CSNID:4145,7
+01-01 00:01:01.507 D/AT      ( 1070): AT< OK
+01-01 00:01:01.507 D/AT      ( 1070): AT> AT+VROM?
+01-01 00:01:01.523 D/AT      ( 1070): AT< +VROM:0,1
+01-01 00:01:01.523 D/AT      ( 1070): AT< OK
+01-01 00:01:01.523 D/RIL     ( 1070): onRequest: state=2 token=0xe4b0 req=45 RIL_REQUEST_QUERY_NETWORK_SELECTION_MODE
+01-01 00:01:01.523 D/AT      ( 1070): AT> AT+COPS?
+01-01 00:01:01.523 D/RILJ    ( 1273): [0018]< REGISTRATION_STATE {1, null, null, 3, 0, 0, 0, 0, 4145, 7, 1, 1, 1, 0, null}
+01-01 00:01:01.539 D/AT      ( 1070): AT< +COPS:2
+01-01 00:01:01.539 D/AT      ( 1070): AT< OK
+01-01 00:01:01.539 D/RIL     ( 1070): onRequest: state=2 token=0xe590 req=61 RIL_REQUEST_SCREEN_STATE
+01-01 00:01:01.539 D/RIL     ( 1070): requestScreenState on
+01-01 00:01:01.539 D/AT      ( 1070): AT> AT+ARSI=1,4
+01-01 00:01:01.539 D/RILJ    ( 1273): [0019]< QUERY_NETWORK_SELECTION_MODE {1}
+01-01 00:01:01.554 D/AT      ( 1070): AT< OK
+01-01 00:01:01.554 D/AT      ( 1070): AT> AT+CREG=1
+01-01 00:01:01.562 D/AT      ( 1070): AT< OK
+01-01 00:01:01.562 D/AT      ( 1070): AT> AT+VMCCMNC=1
+01-01 00:01:01.570 D/AT      ( 1070): AT< OK
+01-01 00:01:01.570 D/AT      ( 1070): AT> AT+VSER=1
+01-01 00:01:01.578 D/AT      ( 1070): AT< OK
+01-01 00:01:01.578 D/RIL     ( 1070): onRequest: state=2 token=0xe4b0 req=56 RIL_REQUEST_LAST_DATA_CALL_FAIL_CAUSE
+01-01 00:01:01.578 D/RILJ    ( 1273): [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED
+01-01 00:01:01.578 D/RILJ    ( 1273): [0022]> OPERATOR
+01-01 00:01:01.578 E/RILJ    ( 1273): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:01:01.578 D/RILJ    ( 1273): [0023]> GPRS_REGISTRATION_STATE
+01-01 00:01:01.578 D/RIL     ( 1070): onRequest: state=2 token=0xe4b0 req=22 RIL_REQUEST_OPERATOR
+01-01 00:01:01.578 D/AT      ( 1070): AT> AT+VMCCMNC?
+01-01 00:01:01.585 D/RILJ    ( 1273): [0024]> REGISTRATION_STATE
+01-01 00:01:01.585 D/RILJ    ( 1273): NOTE: mReqWaiting is NOT 0 but1 at TIMEOUT, reset! There still msg waitng for response
+01-01 00:01:01.585 D/RILJ    ( 1273): WAKE_LOCK_TIMEOUT  mRequestList=3
+01-01 00:01:01.585 D/RILJ    ( 1273): 0: [20] SCREEN_STATE
+01-01 00:01:01.585 D/RILJ    ( 1273): 1: [21] LAST_DATA_CALL_FAIL_CAUSE
+01-01 00:01:01.585 D/RILJ    ( 1273): 2: [22] OPERATOR
+01-01 00:01:01.585 E/RILJ    ( 1273): ERROR: mReqPending is NOT 0 but2 at TIMEOUT, reset!
+01-01 00:01:01.585 D/RILJ    ( 1273): [0025]> QUERY_NETWORK_SELECTION_MODE
+01-01 00:01:01.585 D/RILJ    ( 1273): NOTE: mReqWaiting is NOT 0 but2 at TIMEOUT, reset! There still msg waitng for response
+01-01 00:01:01.585 D/RILJ    ( 1273): WAKE_LOCK_TIMEOUT  mRequestList=5
+01-01 00:01:01.585 D/RILJ    ( 1273): 0: [20] SCREEN_STATE
+01-01 00:01:01.585 D/RILJ    ( 1273): 1: [21] LAST_DATA_CALL_FAIL_CAUSE
+01-01 00:01:01.585 D/RILJ    ( 1273): 2: [22] OPERATOR
+01-01 00:01:01.585 D/RILJ    ( 1273): 3: [23] GPRS_REGISTRATION_STATE
+01-01 00:01:01.585 D/RILJ    ( 1273): 4: [24] REGISTRATION_STATE
+01-01 00:01:01.585 E/RILJ    ( 1273): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:01:01.593 D/AT      ( 1070): AT< +VMCCMNC:1,310,00
+01-01 00:01:01.593 D/AT      ( 1070): AT< OK
+01-01 00:01:01.593 D/AT      ( 1070): AT> AT$QCMIPGETP=0
+01-01 00:01:01.593 D/RILJ    ( 1273): [0020]< SCREEN_STATE 
+01-01 00:01:01.593 D/RILJ    ( 1273): [0021]< LAST_DATA_CALL_FAIL_CAUSE {65535}
+01-01 00:01:01.593 D/GSM     ( 1273): [GsmDataConnection-1] DcActivatingState msg.what=EVENT_GET_LAST_FAIL_DONE
+01-01 00:01:01.593 D/GSM     ( 1273): [GsmDataConnection-1] DcInactiveState: setEnterNoticationParams cp,cause
+01-01 00:01:01.593 D/GSM     ( 1273): [GsmDataConnection-1] DcInactiveState: enter notifyConnectCompleted
+01-01 00:01:01.593 D/GSM     ( 1273): [GsmDataConnection-1] notifyConnection at 946684861602 cause=Unknown Data Error
+01-01 00:01:01.609 D/AT      ( 1070): AT< 0,1,"0.0.0.0","68.28.15.12","68.28.31.12","A10000157F81A9@hcm.sprintpcs.com","A10000157F81A9@hcm.sprintpcs.com",1,1,1234,1,1234
+01-01 00:01:01.609 D/AT      ( 1070): AT< OK
+01-01 00:01:01.617 D/RIL     ( 1070): rilWriteStatus /opt/fusion/fwril-status.txt result=0 OK
+01-01 00:01:01.617 D/RIL     ( 1070): requestOperator: display_optname = 0
+01-01 00:01:01.617 D/RIL     ( 1070): onRequest: state=2 token=0xe4b0 req=21 RIL_REQUEST_GPRS_REGISTRATION_STATE
+01-01 00:01:01.617 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:01:01.617 D/RILJ    ( 1273): [0022]< OPERATOR {Sprint PCS, SPCS, 310120}
+01-01 00:01:01.632 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:01:01.632 D/AT      ( 1070): AT< OK
+01-01 00:01:01.632 D/AT      ( 1070): AT> AT^SYSINFO
+01-01 00:01:01.648 D/AT      ( 1070): AT< ^SYSINFO:2,255,0,8,240
+01-01 00:01:01.648 D/AT      ( 1070): AT< OK
+01-01 00:01:01.648 D/AT      ( 1070): AT> AT+CSNID?
+01-01 00:01:01.664 D/AT      ( 1070): AT< +CSNID:4145,7
+01-01 00:01:01.664 D/AT      ( 1070): AT< OK
+01-01 00:01:01.664 D/AT      ( 1070): AT> AT+VROM?
+01-01 00:01:01.679 D/AT      ( 1070): AT< +VROM:0,1
+01-01 00:01:01.679 D/AT      ( 1070): AT< OK
+01-01 00:01:01.679 D/RIL     ( 1070): onRequest: state=2 token=0xe4b0 req=20 RIL_REQUEST_REGISTRATION_STATE
+01-01 00:01:01.679 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:01:01.679 D/RILJ    ( 1273): [0023]< GPRS_REGISTRATION_STATE {1, null, null, 3, 0, 0, 0, 0, 4145, 7, 1, 1, 1, 0, null}
+01-01 00:01:01.695 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:01:01.695 D/AT      ( 1070): AT< OK
+01-01 00:01:01.695 D/AT      ( 1070): AT> AT^SYSINFO
+01-01 00:01:01.710 D/AT      ( 1070): AT< ^SYSINFO:2,255,0,8,240
+01-01 00:01:01.710 D/AT      ( 1070): AT< OK
+01-01 00:01:01.710 D/AT      ( 1070): AT> AT+CSNID?
+01-01 00:01:01.726 D/AT      ( 1070): AT< +CSNID:4145,7
+01-01 00:01:01.726 D/AT      ( 1070): AT< OK
+01-01 00:01:01.726 D/AT      ( 1070): AT> AT+VROM?
+01-01 00:01:01.742 D/AT      ( 1070): AT< +VROM:0,1
+01-01 00:01:01.742 D/AT      ( 1070): AT< OK
+01-01 00:01:01.742 D/RIL     ( 1070): onRequest: state=2 token=0xe4b0 req=45 RIL_REQUEST_QUERY_NETWORK_SELECTION_MODE
+01-01 00:01:01.742 D/AT      ( 1070): AT> AT+COPS?
+01-01 00:01:01.742 D/RILJ    ( 1273): [0024]< REGISTRATION_STATE {1, null, null, 3, 0, 0, 0, 0, 4145, 7, 1, 1, 1, 0, null}
+01-01 00:01:01.757 D/AT      ( 1070): AT< +COPS:2
+01-01 00:01:01.757 D/AT      ( 1070): AT< OK
+01-01 00:01:01.757 D/RILJ    ( 1273): [0025]< QUERY_NETWORK_SELECTION_MODE {1}
+01-01 00:01:02.578 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:01:02.593 D/AT      ( 1070): AT< +CSQ:25,99
+01-01 00:01:02.593 D/AT      ( 1070): AT< OK
+01-01 00:01:02.593 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:01:02.648 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:01:02.648 D/AT      ( 1070): AT< OK
+01-01 00:01:06.625 D/GSM     ( 1273): [GsmDataConnection-1] DcInactiveState: msg.what=EVENT_RESET, ignore we're already reset
+01-01 00:01:06.625 D/GSM     ( 1273): [GsmDataConnection-1] NotifyDisconnectCompleted
+01-01 00:01:06.625 D/GSM     ( 1273): [GsmDataConnection-1] clearSettings
+01-01 00:01:06.625 D/GSM     ( 1273): GSMPhone.java isDataConnectivityPossible() skip check SIM ready
+01-01 00:01:06.679 D/GSM     ( 1273): [GsmDataConnection-1] DcInactiveState msg.what=EVENT_CONNECT
+01-01 00:01:06.679 D/GSM     ( 1273): [GsmDataConnection-1] Connecting to carrier: 'Sprint' APN: 'cinet.spcs' proxy: 'null' port: 'null
+01-01 00:01:06.679 D/RILJ    ( 1273): [0026]> SETUP_DATA_CALL 1 0 cinet.spcs * * 0 null
+01-01 00:01:06.679 E/RILJ    ( 1273): ERROR: mReqPending is NOT 0 but1 at TIMEOUT, reset!
+01-01 00:01:06.687 D/RIL     ( 1070): onRequest: state=2 token=0xe5b8 req=27 RIL_REQUEST_SETUP_DATA_CALL
+01-01 00:01:06.687 D/GSM     ( 1273): GSMPhone.java isDataConnectivityPossible() skip check SIM ready
+01-01 00:01:06.742 D/RIL     ( 1070): requestSetupDataCallEVDO started /system/bin/pppd call ttyUSB0
+01-01 00:01:08.296 D/AT      ( 1070): AT< CONNECT
+01-01 00:01:09.757 D/RIL     ( 1070): requestSetupDataCallEVDO success cid=1 name=ppp0 ip=72.62.44.143 dns=68.28.37.132 68.28.34.132 gw=68.28.57.69
+01-01 00:01:09.757 D/RILJ    ( 1273): [0026]< SETUP_DATA_CALL {1, ppp0, 72.62.44.143, 68.28.37.132 68.28.34.132, 68.28.57.69}
+01-01 00:01:09.757 D/GSM     ( 1273): [GsmDataConnection-1] DcActivatingState msg.what=EVENT_SETUP_DATA_CONNECTION_DONE
+01-01 00:01:09.757 D/GSM     ( 1273): [GsmDataConnection-1] interface=ppp0 ipAddress=72.62.44.143 gateway=68.28.57.69 DNS1=68.28.37.132 DNS2=68.28.34.132
+01-01 00:01:09.757 D/GSM     ( 1273): [GsmDataConnection-1] DataConnection setup result='SUCCESS' on cid=1
+01-01 00:01:09.757 D/GSM     ( 1273): [GsmDataConnection-1] DcInactiveState: setEnterNoticationParams cp,cause
+01-01 00:01:09.757 D/GSM     ( 1273): [GsmDataConnection-1] DcActiveState: enter notifyConnectCompleted
+01-01 00:01:09.757 D/GSM     ( 1273): [GsmDataConnection-1] notifyConnection at 946684869762 cause=No Error
+01-01 00:01:09.765 D/GSM     ( 1273): GSMPhone.java isDataConnectivityPossible() skip check SIM ready
+01-01 00:01:12.648 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:01:12.664 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:01:12.664 D/AT      ( 1070): AT< +CSQ:25,99
+01-01 00:01:12.664 D/AT      ( 1070): AT< OK
+01-01 00:01:12.664 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:01:12.687 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:01:12.687 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:01:12.687 D/AT      ( 1070): AT< OK
+01-01 00:01:22.687 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:01:22.703 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:01:22.703 D/AT      ( 1070): AT< +CSQ:25,99
+01-01 00:01:22.703 D/AT      ( 1070): AT< OK
+01-01 00:01:22.703 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:01:22.718 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:01:22.718 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:01:22.718 D/AT      ( 1070): AT< OK
+01-01 00:01:32.718 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:01:32.734 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:01:32.734 D/AT      ( 1070): AT< +CSQ:25,99
+01-01 00:01:32.734 D/AT      ( 1070): AT< OK
+01-01 00:01:32.734 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:01:32.750 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:01:32.750 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:01:32.750 D/AT      ( 1070): AT< OK
+01-01 00:01:42.750 D/AT      ( 1070): AT> AT+CSQ
+01-01 00:01:42.765 D/AT      ( 1070): AT< AT+CSQ
+01-01 00:01:42.765 D/AT      ( 1070): AT< +CSQ:25,99
+01-01 00:01:42.765 D/AT      ( 1070): AT< OK
+01-01 00:01:42.765 D/AT      ( 1070): AT> AT+CREG?
+01-01 00:01:42.781 D/AT      ( 1070): AT< AT+CREG?
+01-01 00:01:42.781 D/AT      ( 1070): AT< +CREG:1,4145,7,1
+01-01 00:01:42.781 D/AT      ( 1070): AT< OK
+^C
+# 
