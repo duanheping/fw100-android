@@ -9,15 +9,11 @@ echo "to install base root file system and directory structure."
 echo "Then this script to install fusion wireless related files."
 echo " "
 
-read -p "Install Fusion Wireless files? " -n 1
-if [[ ! $REPLY =~ ^[Yy]$ ]]
-then
-    exit 1
-fi
+TOP=`pwd`
 
 # NOTE:  change this path if target sd card 
 # uses something other than /media/rootfs...
-ROOTFS=/media/rootfs_
+ROOTFS=$TOP/out/target/product/tao3530/android_rootfs
 
 # fw ril
 mkdir $ROOTFS/opt
@@ -38,15 +34,15 @@ chmod 755 $ROOTFS/var/lock
 
 # don't need the fusion LKM if kernel build
 # has fusion drivers built-in
-cp -r fusion/FWUSBModem.ko $ROOTFS/opt/fusion/.
-cp -r fusion/fwsetup.sh    $ROOTFS/opt/fusion/.
+cp -r $TOP/fw-android-1228A/fusion/FWUSBModem.ko $ROOTFS/opt/fusion/.
+cp -r $TOP/fw-android-1228A/fusion/fwsetup.sh    $ROOTFS/opt/fusion/.
 
-cp libs/libril-fusion-100.so $ROOTFS/system/lib/.
+#cp $TOP/fw-android-1228A/libs/libril-fusion-100.so $ROOTFS/system/lib/.
 
-cp bins/busybox      $ROOTFS/system/xbin/.
-cp bins/chat         $ROOTFS/system/xbin/.
+cp $TOP/fw-android-1228A/bins/busybox      $ROOTFS/system/xbin/.
+cp $TOP/fw-android-1228A/bins/chat         $ROOTFS/system/xbin/.
 
-cp -r etcs/ppp $ROOTFS/system/etc/.
+cp -r $TOP/fw-android-1228A/etcs/ppp $ROOTFS/system/etc/.
 chmod 755 $ROOTFS/system/etc/ppp
 chmod 755 $ROOTFS/system/etc/ppp/peers
 
